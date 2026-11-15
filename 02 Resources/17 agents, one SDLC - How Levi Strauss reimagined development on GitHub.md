@@ -19,7 +19,7 @@ Jenny Patchin from Levi Strauss & Co shares how they reimagined their entire pro
 
 ## Background
 
-Before Levi Strauss & Co. introduced AI agents into their flagship retail stylist app, Backpocket, their development workflow was mapped out on a board covered in sticky notes representing pain points. The legacy app took 9 months to build, burdened by 12 manual handoffs across 6 distinct roles. Writing user stories alone dragged on for 2 to 4 weeks, while quality engineering (QE) and regression testing added another 3 weeks at the very tail end of the pipeline.
+Before Levi Strauss & Co. introduced AI agents into their flagship retail stylist app, Backpocket, they mapped their development workflow on a board covered in sticky notes representing pain points. The legacy app took 9 months to build and was burdened by 12 manual handoffs across 6 distinct roles. Writing user stories alone took 2 to 4 weeks, while quality engineering (QE) and regression testing added another 3 weeks at the very end of the pipeline.
 
 To break this bottleneck, the team stopped asking, "How do we make human work faster?" and instead asked, "How do we stop the waiting?"
 
@@ -39,7 +39,7 @@ See [[AI Agents and Tool Use]] (multi-agent orchestration).
 Levi has engineered a modular platform powered by 17 specialized AI agents. They used what developers already use in their daily work, such as VS Code and the GitHub Copilot CLI.
 
 At the core of this system is an **Orchestrator Agent** running on the **GitHub Copilot Cloud** Agent engine, which routes incoming tasks to specialized agents based on plain-text markdown profiles:
-- **Requirements Agent**: Converts incoming user tickets into clear, testable feature specifications. Crucially, it is programmed to ask clarifying questions whenever ambiguous details are detected, preventing costly rework later.
+- **Requirements Agent**: Converts incoming user tickets into clear, testable feature specifications. Crucially, it asks clarifying questions whenever it detects ambiguous details, preventing costly rework later.
 - **Testing Agent**: Automatically writes and executes end-to-end tests using Playwright.
 - **Observability Agent**: Instruments telemetry and sets up system monitoring.
 - **Security, Accessibility, Code Review, and Performance Agents**: Specialized reviewers auditing code against strict organizational standards.
