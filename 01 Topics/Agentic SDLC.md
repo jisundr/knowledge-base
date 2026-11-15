@@ -44,7 +44,11 @@ Core principle: **agents start on execution, humans make the decision.**
 
 - [[AI Agents and Tool Use]]
 - [[AI Engineer Skill Stack]]
+- [[Inverse Pyramid of Constraints]]
+- [[Agent Verification Stack]]
+- [[Autonomous Software Factory]]
 
 ## Sources
 
 - [[17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
+- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]

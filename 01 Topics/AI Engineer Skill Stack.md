@@ -27,6 +27,14 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - Observability
 - Monitoring and security
 
+## Tier 4: Agent code quality and reliability
+
+- [[Inverse Pyramid of Constraints]]
+- [[Categorical Elimination of Anti-Patterns]]
+- [[Agent Verification Stack]]
+- [[Autonomous Software Factory]]
+
 ## Sources
 
 - [[Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
+- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]

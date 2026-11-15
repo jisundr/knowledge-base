@@ -9,6 +9,7 @@ Personal Obsidian vault for capturing and organizing what I learn. Currently foc
 | `00 Inbox` | Raw captures (videos, articles, ideas) waiting for review |
 | `01 Topics` | Atomic topic notes, linked to each other and to their sources |
 | `02 Resources` | Reviewed source notes (`status: reviewed`) |
+| `02 Resources/attachments` | Images and other files embedded in source notes (give them descriptive names) |
 
 ## Workflow
 
