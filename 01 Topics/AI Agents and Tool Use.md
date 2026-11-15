@@ -15,12 +15,19 @@ Moves AI systems from answering static questions to actively performing actions.
 - Analytical agents that query corporate databases and visualize complex datasets on demand.
 - Developer acceleration: tools that help engineering teams ship production code faster.
 
+## Multi-agent orchestration
+
+An orchestrator agent routes tasks to specialist agents (requirements, testing, security, observability, etc.), each defined as a plain Markdown profile and connected to tools via [[Model Context Protocol (MCP)]]. See [[Agentic SDLC]].
+
 ## Related
 
 - [[Retrieval-Augmented Generation (RAG)]]
+- [[Agentic SDLC]]
+- [[Model Context Protocol (MCP)]]
 - [[Containerization and Orchestration]]
 - [[AI Engineer Skill Stack]] (Tier 2)
 
 ## Sources
 
 - [[Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
+- [[17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
