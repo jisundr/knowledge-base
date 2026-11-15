@@ -16,6 +16,17 @@ Personal Obsidian vault for capturing and organizing what I learn. Currently foc
 2. Review it, then pull concepts out into notes in `01 Topics` using `[[wikilinks]]`.
 3. Set `status: reviewed` and move the source note to `02 Resources`.
 
+### Automate it
+
+Run `/ingest <note name>` in Claude Code (or plain `/ingest` for everything in `00 Inbox`) to do steps 2 and 3. The command lives in `.claude/commands/ingest.md`.
+
+## Tests
+
+```bash
+tests/test-ingest.sh            # static checks + live run of /ingest in a temp copy of the vault
+tests/test-ingest.sh --static   # static checks only (no API calls)
+```
+
 ## Start here
 
 - [[AI Engineer Skill Stack]]
