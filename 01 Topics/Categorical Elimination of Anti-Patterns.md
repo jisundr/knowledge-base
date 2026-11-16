@@ -20,4 +20,4 @@ Treat the codebase as a garden: agents copy existing patterns, so any workaround
 
 ## Sources
 
-- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]

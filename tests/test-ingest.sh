@@ -38,12 +38,13 @@ rag_before=$(wc -c < "$TMP/01 Topics/Retrieval-Augmented Generation (RAG).md")
 
 ( cd "$TMP" && claude -p "/ingest $NOTE" \
     --permission-mode acceptEdits \
-    --allowedTools "Read" "Write" "Edit" "Glob" "Grep" "Bash(mv:*)" "Bash(ls:*)" ) \
+    --allowedTools "Read" "Write" "Edit" "Glob" "Grep" "Bash(mv:*)" "Bash(ls:*)" "Bash(date:*)" ) \
   > "$TMP/.claude-output.txt" 2>&1 || bad "claude exited non-zero"
 
-RES="$TMP/02 Resources/$NOTE.md"
+RES=$(ls "$TMP/02 Resources"/[0-9]*" $NOTE.md" 2>/dev/null | head -1)
 check "note left 00 Inbox"              test ! -e "$TMP/00 Inbox/$NOTE.md"
 check "note now in 02 Resources"        test -f "$RES"
+check "filename has datetime prefix"    sh -c "basename \"$RES\" | grep -Eq '^[0-9]{14} '"
 check "status set to reviewed"          grep -q '^status: reviewed' "$RES"
 check "source note has [[wikilinks]]"   grep -q '\[\[[^]]\+\]\]' "$RES"
 check "source prose preserved"          grep -q 'Prompt caching stores' "$RES"
