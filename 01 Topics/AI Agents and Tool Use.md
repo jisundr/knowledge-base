@@ -31,6 +31,6 @@ An orchestrator agent routes tasks to specialist agents (requirements, testing, 
 
 ## Sources
 
-- [[Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
-- [[17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
-- [[Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
+- [[20261114221948 Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More|Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
+- [[20261115112636 17 agents, one SDLC - How Levi Strauss reimagined development on GitHub|17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
+- [[20261116203029 Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026|Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]

@@ -13,7 +13,7 @@ For each note:
    - New topic notes use frontmatter `type: topic` and `tags: [...]`, a `# Title`, a short definition, and `[[wikilinks]]` to related topics.
    - Keep topics atomic: one concept per note, no copy-pasted source prose.
 3. **Link back**: in the source note, add `See [[Topic]]` links to every topic created or updated. Add new topics to `[[AI Engineer Skill Stack]]` or other hub notes if they fit.
-4. **File**: set `status: reviewed` and move the source note to `02 Resources` (use `git mv` if tracked). Keep the filename.
-5. **Report**: list topics created/updated and where the source note ended up. Do not commit unless asked.
+4. **File**: set `status: reviewed` and move the source note to `02 Resources` (use `git mv` if tracked), renaming it to `YYYYMMDDHHMMSS <original title>.md` using the current local time (`date +%Y%m%d%H%M%S`). Skip the prefix if the filename already starts with 14 digits. Update any existing `[[wikilinks]]` to the note to the new name, keeping the old title as alias, e.g. `[[20261116203029 Title|Title]]`.
+5. **Report**: list topics created/updated and where the source note ended up (new filename). Do not commit unless asked.
 
 Rules: use Obsidian `[[wikilinks]]` only (no markdown links between notes), don't delete anything from the source note, and ask before overwriting any existing topic content.

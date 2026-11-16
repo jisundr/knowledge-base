@@ -19,4 +19,4 @@ Fits the runtime tier of the [[Agent Verification Stack]]; the properties to che
 
 ## Sources
 
-- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]

@@ -23,4 +23,4 @@ Part of the top verification tier in the [[Agent Verification Stack]]; its outpu
 
 ## Sources
 
-- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]

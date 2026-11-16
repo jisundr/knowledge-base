@@ -41,6 +41,6 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 
 ## Sources
 
-- [[Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
-- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
-- [[Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
+- [[20261114221948 Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More|Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
+- [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261116203029 Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026|Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]

@@ -15,4 +15,4 @@ Used in the [[Agent Verification Stack]] as a review artifact, and as a natural 
 
 ## Sources
 
-- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]

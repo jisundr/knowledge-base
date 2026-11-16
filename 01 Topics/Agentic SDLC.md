@@ -50,5 +50,5 @@ Core principle: **agents start on execution, humans make the decision.**
 
 ## Sources
 
-- [[17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
-- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261115112636 17 agents, one SDLC - How Levi Strauss reimagined development on GitHub|17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
+- [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]

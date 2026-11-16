@@ -21,4 +21,4 @@ A standard adapter layer that lets agents use external systems (tickets, docs, t
 
 ## Sources
 
-- [[17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
+- [[20261115112636 17 agents, one SDLC - How Levi Strauss reimagined development on GitHub|17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]

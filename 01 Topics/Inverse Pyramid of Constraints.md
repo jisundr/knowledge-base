@@ -27,4 +27,4 @@ A trust model for agent-written code: enforce quality with hard, deterministic c
 
 ## Sources
 
-- [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
