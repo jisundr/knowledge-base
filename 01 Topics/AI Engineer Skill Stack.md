@@ -20,6 +20,11 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[Embeddings and Vector Search]]
 - [[Retrieval-Augmented Generation (RAG)]]
 - [[AI Agents and Tool Use]]
+- [[Context Engineering]]
+  - [[Agent Memory]]
+  - [[Progressive Disclosure]]
+  - [[Dreaming (Agent Memory Consolidation)]]
+  - [[Memory Guardrails for Multi-Agent Systems]]
 
 ## Tier 3: Deployment and operations
 
@@ -38,3 +43,4 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 
 - [[Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
 - [[All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]

@@ -25,9 +25,12 @@ An orchestrator agent routes tasks to specialist agents (requirements, testing, 
 - [[Agentic SDLC]]
 - [[Model Context Protocol (MCP)]]
 - [[Containerization and Orchestration]]
+- [[Context Engineering]]
+- [[Agent Memory]]
 - [[AI Engineer Skill Stack]] (Tier 2)
 
 ## Sources
 
 - [[Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More]]
 - [[17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
+- [[Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
