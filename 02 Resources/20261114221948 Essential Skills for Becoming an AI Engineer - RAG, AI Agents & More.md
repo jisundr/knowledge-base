@@ -6,8 +6,9 @@ tags: [ai-engineering, rag, ai-agents, embeddings, devops]
 source: https://www.youtube.com/watch?v=XN3xNJvWXsc&t=252s
 ---
 
-Source: https://www.youtube.com/watch?v=XN3xNJvWXsc&t=252s
-Notebook: https://notebook.google.com/notebook/25034987-5050-49ae-b812-575045cb73c6
+Sources:
+
+* Video: Essential Skills for Becoming an AI Engineer - RAG, AI Agents & More [link](https://www.youtube.com/watch?v=XN3xNJvWXsc&t=252s)
 
 
 # AI Engineer vs. Machine Learning Researcher

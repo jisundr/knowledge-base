@@ -6,8 +6,9 @@ tags: [ai-engineering, ai-agents, sdlc, mcp, github-copilot, change-management]
 source: https://www.youtube.com/watch?v=-GpxKKgoWWg
 ---
 
-Source: https://www.youtube.com/watch?v=-GpxKKgoWWg
-Notebook: https://notebook.google.com/notebook/c0337480-0337-4f97-b40b-8538a654ca9a
+Sources:
+
+* Video: 17 agents, one SDLC - How Levi Strauss reimagined development on GitHub [link](https://www.youtube.com/watch?v=-GpxKKgoWWg)
 
 # Levi Strauss Agentic Software Development
 

@@ -6,8 +6,9 @@ tags: [ai-engineering, ai-agents, code-quality, verification, sdlc]
 source: https://www.youtube.com/watch?v=O_zcc6Xl12g
 ---
 
-Source: https://www.youtube.com/watch?v=O_zcc6Xl12g
-Notebook: https://notebook.google.com/notebook/8a3cae18-b06e-4cbf-aff3-181e71ccec73
+Sources:
+
+* Video: All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI [link](https://www.youtube.com/watch?v=O_zcc6Xl12g)
 
 See [[Inverse Pyramid of Constraints]], [[Categorical Elimination of Anti-Patterns]], [[Agent Verification Stack]], [[Formal Verification (TLA+ and Lean)]], [[Property-Based UI Testing]], [[Statecharts and State Machines]], [[Autonomous Software Factory]], [[Agentic SDLC]].
 

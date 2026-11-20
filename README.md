@@ -11,6 +11,16 @@ Personal Obsidian vault for capturing and organizing what I learn. Currently foc
 | `02 Resources` | Reviewed source notes (`status: reviewed`), named `YYYYMMDDHHMMSS <title>.md` |
 | `02 Resources/attachments` | Images and other files embedded in source notes (give them descriptive names) |
 
+## Source format
+
+Each Resource note starts with a `Sources:` block listing the original sources only (no notebooks or aggregators):
+
+```markdown
+Sources:
+
+* <Kind>: <Title> [link](<url>)
+```
+
 ## Workflow
 
 1. Capture a new note in `00 Inbox` with `status: inbox` in the frontmatter.

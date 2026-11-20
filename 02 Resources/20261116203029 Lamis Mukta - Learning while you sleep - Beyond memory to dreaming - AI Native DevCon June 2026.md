@@ -6,8 +6,9 @@ tags: [ai-engineering, ai-agents, memory]
 source: https://www.youtube.com/watch?v=tTcxVv8HHNw
 ---
 
-Source: https://www.youtube.com/watch?v=tTcxVv8HHNw
-Notebook: https://notebook.google.com/notebook/fd631981-debe-47b7-b8d4-aa7f45526fda
+Sources:
+
+* Video: Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026 [link](https://www.youtube.com/watch?v=tTcxVv8HHNw)
 
 Lamis Mukta from Anthropic explores context engineering and introduces the concept of "**dreaming**" as a way to enhance AI agent memory and performance. She explains that while raw model intelligence is powerful, compounding that intelligence requires effective management.
 

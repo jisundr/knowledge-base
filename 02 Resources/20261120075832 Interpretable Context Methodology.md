@@ -3,10 +3,20 @@ type: article-note
 status: reviewed
 created: 2026-11-20
 tags: [ai-engineering, ai-agents, context-engineering, workflows]
-source: https://notebook.google.com/notebook/57347d06-5cee-4bb3-8a0c-d1dd4b0fd43e
+source: https://arxiv.org/abs/2603.16021
 ---
 
-Notebook: https://notebook.google.com/notebook/57347d06-5cee-4bb3-8a0c-d1dd4b0fd43e
+Sources:
+
+* Paper: Interpretable Context Methodology: Folder Structure as Agentic Architecture [link](https://arxiv.org/abs/2603.16021)
+* Repo: RinDig/Interpretable-Context-Methodology [link](https://github.com/RinDig/Interpretable-Context-Methodology)
+* Repo: icm-template/docs/methodology.md [link](https://github.com/ktnCodes/icm-template/blob/master/docs/methodology.md)
+* Video: Interpretable Context Methodology – David Hague [link](https://www.youtube.com/watch?v=ac2dC_KpEgk)
+* Article: We don't need an army of agents. We need context. [link](https://building.cerc.com/en/blog/icm-fewer-agents-better-context/)
+* Article: Interpreted Context Methodology - Time To Value [link](https://www.time2value.com/icm)
+* Article: Interpretable Context Methodology - Learn AI [link](https://ai.miraheze.org/wiki/Interpretable_Context_Methodology)
+* Article: How to Use ICM w/Hermes Agent - Clief Notes [link](https://www.skool.com/cliefnotes/how-to-use-icm-whermes-agent)
+* Skill: Icm Architect by RinDig [link](https://www.typingmind.com/skills/rindig-icm-architect)
 
 The **Interpretable Context Methodology (ICM)** is a system-first architecture created by Jake Van Clief and David McDermott that replaces complex multi-agent programming frameworks with a straightforward **filesystem structure**. It organizes workflows into numbered folders and plain Markdown files**. ICM allows a single AI agent to navigate progressively through a **five-layered context hierarchy**, dramatically reducing token overhead and preventing performance degradation caused by irrelevant information.
 
