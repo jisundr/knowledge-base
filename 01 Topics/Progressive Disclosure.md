@@ -14,7 +14,9 @@ Controls context bloat while keeping deep procedural detail accessible.
 - [[Context Engineering]]
 - [[Agent Memory]]
 - [[AI Agents and Tool Use]]
+- [[Five-Layer Context Hierarchy]]
 
 ## Sources
 
 - [[20261116203029 Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026|Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
+- [[20261120075832 Interpretable Context Methodology|Interpretable Context Methodology]]

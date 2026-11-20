@@ -20,7 +20,11 @@ Deliberately managing what goes into an agent's context window so that raw model
 - [[AI Agents and Tool Use]]
 - [[Retrieval-Augmented Generation (RAG)]]
 - [[Memory Guardrails for Multi-Agent Systems]]
+- [[Interpretable Context Methodology (ICM)]]
+- [[Five-Layer Context Hierarchy]]
+- [[Lost in the Middle]]
 
 ## Sources
 
 - [[20261116203029 Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026|Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
+- [[20261120075832 Interpretable Context Methodology|Interpretable Context Methodology]]

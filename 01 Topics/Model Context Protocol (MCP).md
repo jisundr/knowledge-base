@@ -18,6 +18,7 @@ A standard adapter layer that lets agents use external systems (tickets, docs, t
 
 - [[AI Agents and Tool Use]]
 - [[Agentic SDLC]]
+- [[Interpretable Context Methodology (ICM)]] (complementary: static context organization vs runtime tool connections)
 
 ## Sources
 
