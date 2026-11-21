@@ -42,6 +42,14 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[Categorical Elimination of Anti-Patterns]]
 - [[Agent Verification Stack]]
 - [[Autonomous Software Factory]]
+- [[AI System Evaluation]]
+  - [[Evaluation Dataset Design (5 D's)]]
+  - [[Evaluator Cascade]]
+  - [[LLM-as-a-Judge]]
+  - [[Evaluation Error Analysis Flywheel]]
+  - [[Multi-Agent Orchestration Patterns]]
+  - [[LLM Evaluation Tooling]]
+  - [[LLM Evaluation Glossary]]
 
 ## Sources
 
@@ -49,3 +57,4 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
 - [[20261116203029 Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026|Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
 - [[20261120075832 Interpretable Context Methodology|Interpretable Context Methodology]]
+- [[20261121184400 Mastering AI & Agent Evaluation - Complete Framework from Sandbox Benchmarks to Production Scale|Mastering AI & Agent Evaluation - Complete Framework from Sandbox Benchmarks to Production Scale]]

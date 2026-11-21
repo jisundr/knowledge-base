@@ -12,8 +12,9 @@ For each note:
    - First check existing topics (`01 Topics/`) — extend a matching note rather than duplicating it.
    - New topic notes use frontmatter `type: topic` and `tags: [...]`, a `# Title`, a short definition, and `[[wikilinks]]` to related topics.
    - Keep topics atomic: one concept per note, no copy-pasted source prose.
+   - If the note contains `(?)` markers (unclear terms to check), put one-line definitions in `[[LLM Evaluation Glossary]]` (or a matching glossary note) and remove the markers. Fix clear paste errors and typos in place when the user asks, and report any unverified claims in the summary rather than adding a Corrections section to the note.
 3. **Sources**: put a `Sources:` block at the top of the note body (right after frontmatter), one bullet per original source, formatted `* <Kind>: <Title> [link](<url>)` (Kind e.g. Video, Article, Paper, Podcast). Link only original sources, never an aggregator such as a NotebookLM notebook; if the original source is unknown, omit the block and say so in the report.
-4. **Link back**: in the source note, add `See [[Topic]]` links to every topic created or updated. Add new topics to `[[AI Engineer Skill Stack]]` or other hub notes if they fit.
+4. **Link back**: in the source note, add `See [[Topic]]` links to every topic created or updated. Add every new topic to `[[00 Index]]` under the best-fitting category (create a category if none fits), and to `[[AI Engineer Skill Stack]]` or other hub notes if they fit.
 5. **File**: set `status: reviewed` and move the source note to `02 Resources` (use `git mv` if tracked), renaming it to `YYYYMMDDHHMMSS <original title>.md` using the current local time (`date +%Y%m%d%H%M%S`). Skip the prefix if the filename already starts with 14 digits. Update any existing `[[wikilinks]]` to the note to the new name, keeping the old title as alias, e.g. `[[20261116203029 Title|Title]]`.
 6. **Report**: list topics created/updated and where the source note ended up (new filename). Do not commit unless asked.
 

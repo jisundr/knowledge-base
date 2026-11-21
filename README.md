@@ -40,4 +40,5 @@ tests/test-ingest.sh --static   # static checks only (no API calls)
 
 ## Start here
 
+- [[00 Index|Index]] (all topics by category)
 - [[AI Engineer Skill Stack]]
