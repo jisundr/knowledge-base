@@ -28,6 +28,7 @@ With a solid inner loop, outer loops are cheap. Example: each release triggers a
 
 - [[Agentic SDLC]]
 - [[Categorical Elimination of Anti-Patterns]]
+- [[AFK Agent Execution]]
 
 ## Sources
 

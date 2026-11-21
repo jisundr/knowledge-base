@@ -26,6 +26,7 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Context Engineering]]: deliberately managing what goes into an agent's context window.
 - [[Progressive Disclosure]]: load a cheap summary first, full content only when needed.
 - [[Lost in the Middle]]: models attend poorly to instructions buried mid-context.
+- [[Smart Zone and Dumb Zone]]: quality drops past ~100k tokens; work in fresh contexts.
 - [[Interpretable Context Methodology (ICM)]]: filesystem structure instead of framework code.
   - [[Five-Layer Context Hierarchy]]: ICM's layers, loaded from global to run-specific.
   - [[Stage Contract]]: the per-stage `CONTEXT.md` spec.
@@ -44,6 +45,8 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
   - [[Property-Based UI Testing]]: randomized interactions asserting invariants.
   - [[Statecharts and State Machines]]: review behavior as states and transitions.
   - [[Formal Verification (TLA+ and Lean)]]: proofs of design invariants for critical logic.
+- [[Test-Driven Development for Agents]]: red-green-refactor as the agent's objective feedback loop.
+- [[Deep Modules]]: simple interfaces over large functionality so agents work safely inside.
 
 ## Evaluation
 
@@ -60,6 +63,14 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 
 - [[Agentic SDLC]]: redesigning the lifecycle around agents.
 - [[Autonomous Software Factory]]: deterministic boundaries plus verification for high-velocity output.
+
+## AI-Assisted Design and Planning
+
+- [[Grilling Session]]: the agent interviews you until you share a design concept.
+- [[Ubiquitous Language]]: a project `GLOSSARY.md` of precise shared terms.
+- [[Vertical Slices (Tracer Bullets)]]: end-to-end slices through every layer, not layer by layer.
+- [[Task Graph Backlog]]: tickets as a DAG so sub-agents work in parallel.
+- [[AFK Agent Execution]]: human "day shift" planning, unattended "night shift" implementation.
 
 ## Deployment and Operations
 
