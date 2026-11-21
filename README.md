@@ -10,6 +10,7 @@ Personal Obsidian vault for capturing and organizing what I learn. Currently foc
 | `01 Topics` | Atomic topic notes, linked to each other and to their sources |
 | `02 Resources` | Reviewed source notes (`status: reviewed`), named `YYYYMMDDHHMMSS <title>.md` |
 | `02 Resources/attachments` | Images and other files embedded in source notes (give them descriptive names) |
+| `03 Playbooks` | Action-oriented playbooks/runbooks, grouped in subfolders (e.g. `SDLC/`, numbered in order) ("what do I do when X happens?"), started from `Playbook Template` |
 
 ## Source format
 
@@ -41,4 +42,5 @@ tests/test-ingest.sh --static   # static checks only (no API calls)
 ## Start here
 
 - [[00 Index|Index]] (all topics by category)
+- [[00 Playbooks Index|Playbooks Index]] in `03 Playbooks` (how-to guides, e.g. handling new requirements)
 - [[AI Engineer Skill Stack]]
