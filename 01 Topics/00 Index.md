@@ -72,6 +72,14 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Task Graph Backlog]]: tickets as a DAG so sub-agents work in parallel.
 - [[AFK Agent Execution]]: human "day shift" planning, unattended "night shift" implementation.
 
+## AI Output and Communication
+
+- [[AI Output Ladder]]: four tiers of output, from clean text to diagrams, interactive HTML, and video.
+  - [[Simplified Technical English (ASD-STE100)]]: aerospace controlled language for one-meaning text.
+  - [[80% ASD-STE100 Prompting]]: one-line prompt modifier for short, direct output.
+  - [[SimpleEnglish Agent Skill]]: STE packaged as a benchmarked agent skill, scoped to technical docs.
+  - [[Disposable Software Artifacts]]: single-use generated tools for understanding a topic.
+
 ## Deployment and Operations
 
 - [[Containerization and Orchestration]]: Docker and Kubernetes for reliable agent execution.

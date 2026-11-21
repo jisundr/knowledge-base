@@ -58,6 +58,11 @@ An **AI engineer** wires existing frontier or open-source models into working sy
   - [[Multi-Agent Orchestration Patterns]]
   - [[LLM Evaluation Tooling]]
   - [[LLM Evaluation Glossary]]
+- [[AI Output Ladder]]
+  - [[Simplified Technical English (ASD-STE100)]]
+  - [[80% ASD-STE100 Prompting]]
+  - [[SimpleEnglish Agent Skill]]
+  - [[Disposable Software Artifacts]]
 
 ## Sources
 
@@ -67,3 +72,4 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[20261120075832 Interpretable Context Methodology|Interpretable Context Methodology]]
 - [[20261121184400 Mastering AI & Agent Evaluation - Complete Framework from Sandbox Benchmarks to Production Scale|Mastering AI & Agent Evaluation - Complete Framework from Sandbox Benchmarks to Production Scale]]
 - [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
+- [[20261121234637 Mastering AI Output - From Aerospace Standards to Interactive Media|Mastering AI Output - From Aerospace Standards to Interactive Media]]
