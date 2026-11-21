@@ -31,7 +31,7 @@ Stage 6 after [[05 Reviewing and Merging a PR]]. Use when a PR is merged. Outcom
 
 | # | Step | Owner | Done when |
 | --- | --- | --- | --- |
-| 1 | Draft release notes from `REQUIREMENTS.md` and the merged PR | AI | Notes state what changed, for whom, and known limits |
+| 1 | Draft release notes from `REQUIREMENTS.md` and the merged PR | AI | Notes state what changed, for whom, and known limits; written in ASD-STE100, Level 1 or 2 ([[01 Using ASD-STE100 with Agents]]) |
 | 2 | Define success signals and thresholds (error rate, latency, key business metric) and the rollback trigger | AI draft, Human confirms | Each signal has a number and a source |
 | 3 | Run the pre-release checklist: migrations, config and flags, dependencies, rollback path tested | AI | Checklist all ticked |
 | 4 | Approve release timing | **Human decides** | Time and approver logged |
@@ -80,4 +80,5 @@ Stage 6 after [[05 Reviewing and Merging a PR]]. Use when a PR is merged. Outcom
 ## Related
 
 - [[Agentic SDLC]]
+- [[01 Using ASD-STE100 with Agents]]: how the agent writes release notes and incident summaries
 - [[Playbook Template]]
