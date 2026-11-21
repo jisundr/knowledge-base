@@ -47,8 +47,12 @@ Core principle: **agents start on execution, humans make the decision.**
 - [[Inverse Pyramid of Constraints]]
 - [[Agent Verification Stack]]
 - [[Autonomous Software Factory]]
+- [[Grilling Session]]
+- [[Task Graph Backlog]]
+- [[AFK Agent Execution]]
 
 ## Sources
 
 - [[20261115112636 17 agents, one SDLC - How Levi Strauss reimagined development on GitHub|17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
 - [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]

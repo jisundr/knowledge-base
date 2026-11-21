@@ -29,6 +29,8 @@ An **AI engineer** wires existing frontier or open-source models into working sy
     - [[Five-Layer Context Hierarchy]]
     - [[Stage Contract]]
   - [[Lost in the Middle]]
+  - [[Smart Zone and Dumb Zone]]
+  - [[Ubiquitous Language]]
 
 ## Tier 3: Deployment and operations
 
@@ -42,6 +44,12 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[Categorical Elimination of Anti-Patterns]]
 - [[Agent Verification Stack]]
 - [[Autonomous Software Factory]]
+  - [[Grilling Session]]
+  - [[Vertical Slices (Tracer Bullets)]]
+  - [[Task Graph Backlog]]
+  - [[AFK Agent Execution]]
+  - [[Test-Driven Development for Agents]]
+  - [[Deep Modules]]
 - [[AI System Evaluation]]
   - [[Evaluation Dataset Design (5 D's)]]
   - [[Evaluator Cascade]]
@@ -58,3 +66,4 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[20261116203029 Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026|Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
 - [[20261120075832 Interpretable Context Methodology|Interpretable Context Methodology]]
 - [[20261121184400 Mastering AI & Agent Evaluation - Complete Framework from Sandbox Benchmarks to Production Scale|Mastering AI & Agent Evaluation - Complete Framework from Sandbox Benchmarks to Production Scale]]
+- [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
