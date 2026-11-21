@@ -37,7 +37,10 @@ Run `/ingest <note name>` in Claude Code (or plain `/ingest` for everything in `
 ```bash
 tests/test-ingest.sh            # static checks + live run of /ingest in a temp copy of the vault
 tests/test-ingest.sh --static   # static checks only (no API calls)
+python3 tests/check-docs.py     # document checks: frontmatter, filenames, Sources block, wikilinks, index coverage
 ```
+
+CI (`.github/workflows/docs-check.yml`) runs the document checks and the static ingest checks on every push to `main` and every pull request.
 
 ## Start here
 
