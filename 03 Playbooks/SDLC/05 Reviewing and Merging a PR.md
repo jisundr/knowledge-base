@@ -64,5 +64,6 @@ Stage 5 after [[04 Running Quality Gates]]. Use when gates are green. Outcome: a
 
 ## Related
 
+- [[06 Releasing and Monitoring]] (next stage)
 - [[Agentic SDLC]]
 - [[Playbook Template]]
