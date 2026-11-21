@@ -38,7 +38,7 @@ Use when a ticket, brief, or change request lands and must become something buil
 | 4 | Answer questions with context and examples | Human | Each question is answered or has an owner and date |
 | 5 | Write requirements in EARS form (see below) | AI | Each requirement is one testable sentence |
 | 6 | Define scope: in, out, deferred | AI draft, Human decides | Someone could disagree with a specific line |
-| 7 | Derive acceptance criteria and non-functional needs (a11y, performance, security, observability) matching the CI gates | AI | QA could test each without asking |
+| 7 | Derive acceptance criteria and non-functional needs (a11y, performance, security, observability) matching the CI gates | AI | QA could test each without asking; written in ASD-STE100, Level 1 ([[01 Using ASD-STE100 with Agents]]) |
 | 8 | List assumptions, risks, dependencies, with an owner for each | AI draft, Human validates | No orphaned assumptions |
 | 9 | Review and approve the spec | **Human decides** | Written approval on the ticket |
 | 10 | Baseline the spec; changes re-enter at step 3 | Human | One source of truth, linked from the ticket |
@@ -123,5 +123,6 @@ Gaps to cover by hand or by extending the stage (via a PR to kairyn, following i
 
 - [[Agentic SDLC]]
 - [[02 Designing a Solution]] (next stage)
+- [[01 Using ASD-STE100 with Agents]]: how the agent writes acceptance criteria with one meaning
 - [[Playbook Template]]
 - [kairyn](https://github.com/jisundr/kairyn)

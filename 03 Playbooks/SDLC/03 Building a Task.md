@@ -36,7 +36,7 @@ Stage 3 after [[02 Designing a Solution]]. Use when `DESIGN.md` is approved. Out
 | 4 | Run the full local suite and linters | AI | All green |
 | 5 | Commit per task with a message linking the criterion | AI | One logical change per commit |
 | 6 | Log deviations from the plan in `STATE.md` | AI | Every deviation has a reason |
-| 7 | Open a PR summarizing criteria met, tests added, deviations | AI | PR description maps criteria to evidence |
+| 7 | Open a PR summarizing criteria met, tests added, deviations | AI | PR description maps criteria to evidence; written in ASD-STE100, Level 1 ([[01 Using ASD-STE100 with Agents]]) |
 
 ## Gates
 
@@ -65,4 +65,5 @@ Stage 3 after [[02 Designing a Solution]]. Use when `DESIGN.md` is approved. Out
 ## Related
 
 - [[Agentic SDLC]]
+- [[01 Using ASD-STE100 with Agents]]: how the agent writes PR descriptions and commit messages
 - [[Playbook Template]]
