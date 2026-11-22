@@ -29,6 +29,9 @@ Deliberately managing what goes into an agent's context window so that raw model
 - [[Prefix Caching]]
 - [[Context Pointers]]
 - [[Home Repo Pattern]]
+- [[Agent Skills]]
+- [[Context Loading Patterns]]
+- [[Progressive Disclosure Depth (Flat vs Hierarchical)]]
 
 ## Sources
 
@@ -36,3 +39,4 @@ Deliberately managing what goes into an agent's context window so that raw model
 - [[20261120075832 Interpretable Context Methodology|Interpretable Context Methodology]]
 - [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
 - [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
+- [[20261122181902 Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks|Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks]]

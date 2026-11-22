@@ -6,7 +6,7 @@ tags: [playbook, ai-agents, context-engineering, steering]
 
 # Playbook - Writing Agent Instruction Files
 
-Use when you write or trim an always-loaded instruction file (`AGENTS.md`, `CLAUDE.md`, a system prompt). Outcome: the file is short, holds only rules that apply to every task, and points to deeper docs and skills that the agent loads on demand. Sessions stay in the smart zone and keep the prefix cache warm. Pattern: [[Progressive Disclosure]] with [[Context Pointers]], from [[Context Engineering]].
+Use when you write or trim an always-loaded instruction file (`AGENTS.md`, `CLAUDE.md`, a system prompt). Outcome: the file is short, holds only rules that apply to every task, and points to deeper docs and skills that the agent loads on demand. Sessions stay in the smart zone and keep the prefix cache warm. Pattern: [[Progressive Disclosure]] with [[Context Pointers]] and [[Agent Skills]], from [[Context Engineering]].
 
 ## Trigger
 
@@ -19,7 +19,8 @@ Use when you write or trim an always-loaded instruction file (`AGENTS.md`, `CLAU
 
 - **The model is stateless**: the harness re-sends the instruction file and the full history on every request ([[Model and Harness Separation]]). Every line costs tokens and attention on every turn.
 - **Point, do not paste**: one line says where a doc lives and when to read it. The agent fetches it only when the task needs it.
-- **Skills for repeatable know-how**: the harness shows only a skill's name and description until the task matches.
+- **Skills for repeatable know-how**: the harness shows only a skill's name and description until the task matches ([[Agent Skills]]).
+- **Skills, not new agents**: add domain know-how as a skill on the general agent. Build a separate agent only for isolated context, different permissions, or parallel work.
 - **Stable prefix**: keep the start of the context the same between requests so [[Prefix Caching]] works.
 - **Context lives where agents can see it**: rules live in versioned files, not in chat memory.
 
@@ -32,6 +33,24 @@ Use when you write or trim an always-loaded instruction file (`AGENTS.md`, `CLAU
 | Repeatable procedures with scripts or templates (migrations, releases) | A skill (`SKILL.md` folder) | Loaded only when triggered |
 | Facts about the codebase (types, schema, config) | The code itself ([[Durable Facts in Native Homes]]) | One source of truth, cannot drift |
 | Dates, versions, per-run values | Tool calls or the user turn, never the system prompt | Changing values break the prefix cache |
+
+## Writing a skill
+
+Use this when step 4 moves a procedure into a skill.
+
+| Check | Rule |
+| --- | --- |
+| Folder | `<name>/SKILL.md`, plus `scripts/`, `references/`, `assets/` only when needed |
+| `name` | Lowercase letters, digits, hyphens; max 64 chars; no leading, trailing, or double hyphen; same as the folder. On Claude, not `anthropic` or `claude` |
+| `description` | Max 1024 chars. Says what the skill does **and** when to use it, in the words a user would type |
+| Body | Process steps, decisions, and exit criteria only. Under 500 lines and about 5,000 tokens |
+| References | One level deep from `SKILL.md`, one table of contents ([[Progressive Disclosure Depth (Flat vs Hierarchical)]]) |
+| Scripts | Save working code in `scripts/` so the agent runs it instead of rewriting it |
+| Verification | End with a check the agent runs before it reports done: a test, a validation script, or a render ([[Self-Verification Loop]]) |
+| Review | A human reviews skills the agent drafts. Unreviewed self-written skills gave no average benefit in SkillsBench |
+| Security | Read every community skill before install. Run scripts in a sandbox |
+
+Keep each skill focused on one job. Several small skills work better than one skill that holds the whole manual.
 
 ## Roles
 
@@ -85,6 +104,7 @@ Do not re-explain rules in a degraded session. More text adds noise to a crowded
 2. Every pointer resolves to a file or skill that exists.
 3. No dynamic values in the always-loaded file or system prompt.
 4. Sample tasks show the agent reads the right doc through its pointer.
+5. Each new skill passes the "Writing a skill" checks, and a sample prompt triggers it.
 
 ## Pitfalls
 
@@ -93,6 +113,10 @@ Do not re-explain rules in a degraded session. More text adds noise to a crowded
 - **Dead pointers**: a renamed doc leaves a pointer to nothing. Check pointers in CI.
 - **Timestamps in the system prompt**: one changing value at the top breaks the cache for every later turn.
 - **Rewriting early history**: editing or reordering early turns also breaks the cache. Compact forward instead.
+- **One skill per chunk**: splitting a manual into many always-advertised skills floods the context with descriptions. Use one skill with an index in `references/`.
+- **Vague descriptions**: "Helps with PDFs" gives the agent no trigger. Say what it does and when.
+- **Unreviewed self-written skills**: the agent's own skill drafts need a human review before they join the shared set.
+- **Unvetted community skills**: they can run code. Read them first.
 - **Skills in `~/.claude/skills` only**: outside git, so not versioned or shared. Keep team skills in a repo ([[03 Setting Up a Home Repo]]).
 
 ## Escalation
@@ -111,4 +135,7 @@ Do not re-explain rules in a degraded session. More text adds noise to a crowded
 - [[Five-Layer Context Hierarchy]]
 - [[01 Using ASD-STE100 with Agents]]
 - [[03 Setting Up a Home Repo]]
+- [[Agent Skills]]
+- [[Context Loading Patterns]]
+- [[Self-Verification Loop]]
 - [[Playbook Template]]
