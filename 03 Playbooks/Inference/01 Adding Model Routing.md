@@ -73,6 +73,7 @@ Token-budget routing (short requests to a high-concurrency pool, long ones to a 
 | Quality score per route | Catches silent quality loss on the cheap path |
 | Escalation rate (cascades) | A high rate means the cheap model is wrong too often; each escalation pays twice |
 | Cache hit rate and wrong-hit rate | A loose threshold returns wrong answers |
+| Provider cache-token share | A drop means something broke the prefix cache |
 | Routing latency (p95) | A slow router cancels the gain |
 | Share of traffic per model | Detects drift when traffic changes |
 | Fallback and circuit-breaker trips | Provider health |
@@ -94,6 +95,7 @@ Token-budget routing (short requests to a high-concurrency pool, long ones to a 
 - **Self-checks that the small model always passes**: test the cascade check against known failures.
 - **Stale routes**: a model update or new traffic changes which model is good enough. Rerun the evals when either changes.
 - **Hidden rules**: routing logic in code that nobody can read. Keep rules and thresholds in config.
+- **Breaking the prefix cache**: switching models mid-conversation, or putting timestamps and other changing values in the system prompt, makes every later turn pay full input price ([[Prefix Caching]]). Route per conversation, not per turn, for multi-turn agents, and keep the prompt prefix stable.
 
 ## Escalation
 
@@ -107,6 +109,7 @@ Token-budget routing (short requests to a high-concurrency pool, long ones to a 
 - [[LLM Cascading]]
 - [[Cascade Routing]]
 - [[Semantic Caching]]
+- [[Prefix Caching]]
 - [[LLM Routing in Production]]
 - [[Evaluator Cascade]]
 - [[06 Releasing and Monitoring]]

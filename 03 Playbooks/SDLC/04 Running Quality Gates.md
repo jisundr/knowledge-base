@@ -34,6 +34,7 @@ Gates run in this order. Security is last so it audits the final code, including
 | # | Gate | What is checked | Done when |
 | --- | --- | --- | --- |
 | 1 | Testing | Business logic, regression suite, end-to-end tests (e.g. Playwright) | Suite green; each acceptance criterion has a passing test |
+| 1b | Contract | For changes to a shared API: contract tests against callers, or drift detection across repos ([[Contract-Driven Workspace]]) | No caller breaks; breaking changes notify every dependent repo |
 | 2 | Accessibility | WCAG 2.2 AA in a headless browser | No AA violations |
 | 3 | Performance | Core Web Vitals, measured | Metrics within budget |
 | 4 | Observability | Telemetry and monitoring present for the new behavior | Missing instrumentation added |
@@ -60,6 +61,7 @@ Gates run in this order. Security is last so it audits the final code, including
 - Estimating performance instead of measuring it.
 - Waiving a gate without a recorded reason.
 - Accepting autofixes unread.
+- Trusting mocked caller tests: they pass after a contract break, and the failure shows up as live 404s. The contract gate catches it.
 
 ## Escalation
 
@@ -70,4 +72,6 @@ Gates run in this order. Security is last so it audits the final code, including
 
 - [[Agentic SDLC]]
 - [[Agent Verification Stack]]
+- [[Contract-Driven Workspace]]
+- [[03 Setting Up a Home Repo]]
 - [[Playbook Template]]
