@@ -30,6 +30,11 @@ An **AI engineer** wires existing frontier or open-source models into working sy
     - [[Stage Contract]]
   - [[Lost in the Middle]]
   - [[Smart Zone and Dumb Zone]]
+  - [[Model and Harness Separation]]
+  - [[Prefix Caching]]
+  - [[Context Pointers]]
+  - [[Home Repo Pattern]]
+    - [[Contract-Driven Workspace]]
   - [[Ubiquitous Language]]
 
 ## Tier 3: Deployment and operations
@@ -49,6 +54,7 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[Categorical Elimination of Anti-Patterns]]
 - [[Agent Verification Stack]]
 - [[Autonomous Software Factory]]
+  - [[AI Work Autonomy Spectrum]]
   - [[Grilling Session]]
   - [[Vertical Slices (Tracer Bullets)]]
   - [[Spec-Driven Development]]
@@ -85,3 +91,4 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[20261121234637 Mastering AI Output - From Aerospace Standards to Interactive Media|Mastering AI Output - From Aerospace Standards to Interactive Media]]
 - [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]
 - [[20261122133225 Spec-Driven Development Exit Strategies - What to Retain, Merge, and Discard|Spec-Driven Development Exit Strategies - What to Retain, Merge, and Discard]]
+- [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]

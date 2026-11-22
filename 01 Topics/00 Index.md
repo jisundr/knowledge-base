@@ -27,6 +27,11 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Progressive Disclosure]]: load a cheap summary first, full content only when needed.
 - [[Lost in the Middle]]: models attend poorly to instructions buried mid-context.
 - [[Smart Zone and Dumb Zone]]: quality drops past ~100k tokens; work in fresh contexts.
+- [[Model and Harness Separation]]: stateless model, agentic behavior lives in the harness loop.
+- [[Prefix Caching]]: stable context prefixes are billed as cheap cache tokens.
+- [[Context Pointers]]: one-line hints in `AGENTS.md` instead of inline runbooks.
+- [[Home Repo Pattern]]: one control-plane repo for agent sessions across many repos.
+  - [[Contract-Driven Workspace]]: manifest-declared contracts that flag cross-repo breaking changes.
 - [[Interpretable Context Methodology (ICM)]]: filesystem structure instead of framework code.
   - [[Five-Layer Context Hierarchy]]: ICM's layers, loaded from global to run-specific.
   - [[Stage Contract]]: the per-stage `CONTEXT.md` spec.
@@ -63,6 +68,7 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 
 - [[Agentic SDLC]]: redesigning the lifecycle around agents.
 - [[Autonomous Software Factory]]: deterministic boundaries plus verification for high-velocity output.
+- [[AI Work Autonomy Spectrum]]: human-in-the-loop, AFK, software factory, dark factory.
 - [[Long-Running Agent Harness]]: brain, hands, and session layers for multi-hour agent work.
   - [[Ralph Loop]]: pick ready task, build, get judged, record lessons, repeat.
 

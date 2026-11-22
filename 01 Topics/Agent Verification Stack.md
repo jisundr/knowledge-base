@@ -23,7 +23,10 @@ Human review shifts to inspecting execution videos, UI screenshots, state diagra
 - [[Inverse Pyramid of Constraints]]
 - [[Autonomous Software Factory]]
 - [[Agentic SDLC]]
+- [[AI Work Autonomy Spectrum]]
+- [[Contract-Driven Workspace]]
 
 ## Sources
 
 - [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
