@@ -23,3 +23,9 @@ The stages of an agentic SDLC ([[Agentic SDLC]], Levi Strauss pattern), each dra
 How to set up and steer agents, across every SDLC stage.
 
 1. [[01 Using ASD-STE100 with Agents]]: make agents write short, direct text with one meaning; pick a strictness level, wire it in, measure it.
+
+## Inference (`Inference/`)
+
+How to serve model requests at the right cost, latency, and quality.
+
+1. [[01 Adding Model Routing]]: add caching, routing, and cascading in stages, each measured against a quality bar.

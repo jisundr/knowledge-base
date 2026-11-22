@@ -32,6 +32,7 @@ When difficulty cannot be read from the prompt, routing guesses wrong. [[LLM Cas
 - [[Cascade Routing]]
 - [[LLM Routing in Production]]
 - [[Semantic Caching]]
+- [[01 Adding Model Routing]] (playbook)
 
 ## Sources
 
