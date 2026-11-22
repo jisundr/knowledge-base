@@ -24,6 +24,7 @@ A trust model for agent-written code: enforce quality with hard, deterministic c
 - [[Agentic SDLC]]
 - [[AI Agents and Tool Use]]
 - [[Autonomous Software Factory]]
+- [[Durable Facts in Native Homes]]
 
 ## Sources
 

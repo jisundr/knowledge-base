@@ -15,6 +15,8 @@ Output: a shared design concept, a [[Ubiquitous Language]] glossary, and usually
 
 - [[Agentic SDLC]]
 - [[Task Graph Backlog]]
+- [[Problem-First Thinking]]
+- [[Spec-Driven Development]]
 
 ## Sources
 

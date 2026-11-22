@@ -50,9 +50,13 @@ Core principle: **agents start on execution, humans make the decision.**
 - [[Grilling Session]]
 - [[Task Graph Backlog]]
 - [[AFK Agent Execution]]
+- [[Spec-Driven Development]]
+- [[EARS Notation]]
+- [[Product-Minded Engineer]]
 
 ## Sources
 
 - [[20261115112636 17 agents, one SDLC - How Levi Strauss reimagined development on GitHub|17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
 - [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
 - [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
+- [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]

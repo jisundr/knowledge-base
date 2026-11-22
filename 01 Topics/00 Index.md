@@ -63,6 +63,8 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 
 - [[Agentic SDLC]]: redesigning the lifecycle around agents.
 - [[Autonomous Software Factory]]: deterministic boundaries plus verification for high-velocity output.
+- [[Long-Running Agent Harness]]: brain, hands, and session layers for multi-hour agent work.
+  - [[Ralph Loop]]: pick ready task, build, get judged, record lessons, repeat.
 
 ## AI-Assisted Design and Planning
 
@@ -70,7 +72,24 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Ubiquitous Language]]: a project `GLOSSARY.md` of precise shared terms.
 - [[Vertical Slices (Tracer Bullets)]]: end-to-end slices through every layer, not layer by layer.
 - [[Task Graph Backlog]]: tickets as a DAG so sub-agents work in parallel.
+- [[Spec-Driven Development]]: requirements, design, and tasks as Markdown specs in the repo.
+  - [[EARS Notation]]: one testable sentence per requirement, in a fixed shape.
+  - [[Spec Exit Strategy]]: what to keep, promote into code, or delete after a feature ships.
+    - [[Spec Persistence Models]]: flow-back, flow-forward, living spec, constitution-only.
+    - [[Durable Facts in Native Homes]]: move lasting rules into schemas, tests, and policies.
+- [[Design Document Types]]: PRD, RFC, spec, and ADR, by the question each answers.
+- [[Architecture Decision Record (ADR)]]: immutable record of one load-bearing decision.
+- [[SDLC Documentation Glossary]]: change brief, constitution.md, Nygard format, MADR.
 - [[AFK Agent Execution]]: human "day shift" planning, unattended "night shift" implementation.
+
+## Product Discovery and Shaping
+
+- [[Problem-First Thinking]]: start from the customer problem, not the feature.
+- [[Product Trio]]: PM, designer, and tech lead own discovery together.
+- [[Four Big Product Risks]]: value, usability, feasibility, viability.
+- [[Product-Minded Engineer]]: engineers who engage with the why, not just the ticket.
+- [[Shaping (Shape Up)]]: bound a raw idea with an appetite before building.
+- [[Product Discovery Glossary]]: appetite, breadboarding, fat-marker sketch, and peers.
 
 ## AI Output and Communication
 
