@@ -18,7 +18,10 @@ Two safeguards keep it from producing a "ball of mud":
 
 - [[Autonomous Software Factory]]
 - [[Agentic SDLC]]
+- [[Ralph Loop]]
+- [[Long-Running Agent Harness]]
 
 ## Sources
 
 - [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
+- [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]

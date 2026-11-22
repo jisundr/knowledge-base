@@ -10,6 +10,8 @@ A model's reasoning quality is not uniform across a session (framing attributed 
 - Attention cost grows quadratically with token count, so focus drops off around **~100k tokens** (roughly 40% of the window), whatever the advertised limit.
 - **Compacting** (summarizing history into a header) leaves low-signal "sediment" that accumulates over time.
 
+Also called **context rot**: one of the three walls a [[Long-Running Agent Harness]] is built to get around.
+
 ## The Memento approach
 
 Treat the agent as resetting to a blank slate each session, and design for it:
@@ -24,7 +26,9 @@ Treat the agent as resetting to a blank slate each session, and design for it:
 - [[Lost in the Middle]]
 - [[Ubiquitous Language]]
 - [[AFK Agent Execution]]
+- [[Long-Running Agent Harness]]
 
 ## Sources
 
 - [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
+- [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]
