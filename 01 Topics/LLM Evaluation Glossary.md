@@ -73,9 +73,31 @@ Procedure that controls the false discovery rate across many simultaneous tests.
 ### OWASP Top 10 for LLM Applications
 OWASP's list of the top LLM security risks (prompt injection, sensitive information disclosure, and so on).
 
+## Routing and inference
+
+### Ex-ante quality estimation
+Predicting how well a model will answer from the prompt alone, before generation. The basis of [[LLM Routing]].
+
+### Post-hoc quality estimation
+Scoring an answer after it is generated (confidence, log-probabilities, self-checks) to decide whether to escalate. The basis of [[LLM Cascading]].
+
+### vLLM
+Open-source, high-throughput LLM inference and serving engine.
+
+### Dual-pool token routing
+Splitting serving capacity into a high-concurrency pool for short requests and a deep-capacity pool for long ones, and routing each request by expected token usage.
+
+### RouterBench
+Benchmark for comparing LLM routers on answer quality versus cost.
+
+### SWE-bench
+Benchmark of real GitHub issues; a model must produce a patch that passes the repository's tests.
+
 ## Related
 
 - [[Evaluator Cascade]]
 - [[LLM-as-a-Judge]]
 - [[Evaluation Dataset Design (5 D's)]]
 - [[AI System Evaluation]]
+- [[LLM Routing]]
+- [[Cascade Routing]]

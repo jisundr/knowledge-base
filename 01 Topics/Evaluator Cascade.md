@@ -27,3 +27,4 @@ Terms such as BLEU, ROUGE, BERTScore, NLI, and TTFT are defined in [[LLM Evaluat
 
 - [[AI System Evaluation]]
 - [[Agent Verification Stack]]
+- [[LLM Cascading]] (same cheap-first shape, for generation)

@@ -35,6 +35,11 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 ## Tier 3: Deployment and operations
 
 - [[Containerization and Orchestration]]
+- [[LLM Routing]]
+  - [[LLM Cascading]]
+  - [[Cascade Routing]]
+  - [[Semantic Caching]]
+  - [[LLM Routing in Production]]
 - Observability
 - Monitoring and security
 

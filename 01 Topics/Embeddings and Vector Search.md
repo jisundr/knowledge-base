@@ -16,6 +16,8 @@ Vector databases then search by context and concept similarity, e.g., recognizin
 ## Related
 
 - [[Retrieval-Augmented Generation (RAG)]]
+- [[LLM Routing]] (semantic routing)
+- [[Semantic Caching]]
 - [[AI Engineer Skill Stack]] (Tier 2)
 
 ## Sources
