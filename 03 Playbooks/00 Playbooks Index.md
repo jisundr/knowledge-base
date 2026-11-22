@@ -11,6 +11,7 @@ Action-oriented guides: *what do I do when X happens?* Topics (`01 Topics`) expl
 
 The stages of an agentic SDLC ([[Agentic SDLC]], Levi Strauss pattern), each drafted so it can become a stage in [kairyn](https://github.com/jisundr/kairyn). Agents start on execution, humans make the decision.
 
+0. [[00 Managing the Idea Backlog]]: raw idea to shaped, committed pitch; prune the rest.
 1. [[01 Handling New Requirements]]: request to approved spec. (kairyn: implemented as `requirements`)
 2. [[02 Designing a Solution]]: approved spec to approved plan and task list.
 3. [[03 Building a Task]]: plan to PR, tests first.
