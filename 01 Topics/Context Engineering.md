@@ -25,9 +25,14 @@ Deliberately managing what goes into an agent's context window so that raw model
 - [[Lost in the Middle]]
 - [[Smart Zone and Dumb Zone]]
 - [[Ubiquitous Language]]
+- [[Model and Harness Separation]]
+- [[Prefix Caching]]
+- [[Context Pointers]]
+- [[Home Repo Pattern]]
 
 ## Sources
 
 - [[20261116203029 Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026|Lamis Mukta - Learning while you sleep - Beyond memory to dreaming - AI Native DevCon June 2026]]
 - [[20261120075832 Interpretable Context Methodology|Interpretable Context Methodology]]
 - [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
+- [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]

@@ -29,7 +29,10 @@ With a solid inner loop, outer loops are cheap. Example: each release triggers a
 - [[Agentic SDLC]]
 - [[Categorical Elimination of Anti-Patterns]]
 - [[AFK Agent Execution]]
+- [[AI Work Autonomy Spectrum]]
+- [[Contract-Driven Workspace]]
 
 ## Sources
 
 - [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
+- [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
