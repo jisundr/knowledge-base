@@ -18,6 +18,7 @@ Infrastructure rules that keep a model router from erasing its own savings.
 - [[LLM Cascading]]
 - [[Cascade Routing]]
 - [[Containerization and Orchestration]]
+- [[01 Adding Model Routing]] (playbook)
 
 ## Sources
 
