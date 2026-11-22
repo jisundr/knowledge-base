@@ -21,7 +21,7 @@ The team owns this stage even when the product function is weak: engineers act a
 - **The backlog holds options, not commitments.** Nothing in it is promised. Work becomes committed only at step 8, by a human.
 - **Problem first.** An idea enters as whatever was said, but leaves as a problem with evidence ([[Problem-First Thinking]]). Agents never build from a solution-only request.
 - **Shape before you build.** Fix the appetite, then cut scope to fit ([[Shaping (Shape Up)]]).
-- **Context lives where agents can see it.** One record per idea, in the tracker's triage inbox or in the repo (`docs/ideas/`), not in chat.
+- **Context lives where agents can see it.** One record per idea, in the tracker's triage inbox or in the repo (`docs/backlog/`), not in chat.
 - **Human as judgment.** Agents capture, deduplicate, research, and draft. Humans triage, set appetite, and commit.
 - **Auditable.** Every keep, park, drop, and commit decision is recorded on the idea with who made it.
 - Removes the two failure modes of a raw backlog: the endless list nobody reads, and the "feature commandant" pipe that sends unshaped asks straight to build.
@@ -38,7 +38,7 @@ The deciding humans are ideally a [[Product Trio]]. Without a PM, the tech lead 
 
 ## Idea record
 
-The minimum fields. Keep it one short file or ticket per idea.
+The minimum fields. Keep it one short file or ticket per idea. In a repo, name the file `docs/backlog/<YYYYMMDDHHMMSS>-<slug>.md`, from the capture time in UTC (from `date`, not memory).
 
 | Field | Content |
 | --- | --- |
