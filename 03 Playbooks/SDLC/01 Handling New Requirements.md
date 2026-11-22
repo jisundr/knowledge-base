@@ -10,6 +10,7 @@ Use when a ticket, brief, or change request lands and must become something buil
 
 ## Trigger
 
+- A shaped pitch is committed in [[00 Managing the Idea Backlog]].
 - A new ticket, brief, or meeting outcome describes new work.
 - An existing requirement changes mid-flight.
 
@@ -122,6 +123,7 @@ Gaps to cover by hand or by extending the stage (via a PR to kairyn, following i
 ## Related
 
 - [[Agentic SDLC]]
+- [[00 Managing the Idea Backlog]] (previous stage)
 - [[02 Designing a Solution]] (next stage)
 - [[01 Using ASD-STE100 with Agents]]: how the agent writes acceptance criteria with one meaning
 - [[Playbook Template]]

@@ -21,6 +21,7 @@ Terms are defined in [[Product Discovery Glossary]]. A shaped idea is the input 
 - [[Problem-First Thinking]]
 - [[Product Trio]]
 - [[Vertical Slices (Tracer Bullets)]]
+- Playbook: [[00 Managing the Idea Backlog]]
 
 ## Sources
 

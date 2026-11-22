@@ -21,6 +21,7 @@ The failure it prevents is **product myopia**: committing to a feature or UI moc
 - [[Product-Minded Engineer]]
 - [[Shaping (Shape Up)]]
 - [[Grilling Session]]
+- Playbook: [[00 Managing the Idea Backlog]]
 
 ## Sources
 
