@@ -34,11 +34,11 @@ Gates run in this order. Security is last so it audits the final code, including
 | # | Gate | What is checked | Done when |
 | --- | --- | --- | --- |
 | 1 | Testing | Business logic, regression suite, end-to-end tests (e.g. Playwright) | Suite green; each acceptance criterion has a passing test |
-| 1b | Contract | For changes to a shared API: contract tests against callers, or drift detection across repos ([[Contract-Driven Workspace]]) | No caller breaks; breaking changes notify every dependent repo |
-| 2 | Accessibility | WCAG 2.2 AA in a headless browser | No AA violations |
-| 3 | Performance | Core Web Vitals, measured | Metrics within budget |
-| 4 | Observability | Telemetry and monitoring present for the new behavior | Missing instrumentation added |
-| 5 | Security | OWASP Top 10, known CVEs, leaked secrets | No unresolved findings |
+| 2 | Contract | For changes to a shared API: contract tests against callers, or drift detection across repos ([[Contract-Driven Workspace]]) | No caller breaks; breaking changes notify every dependent repo |
+| 3 | Accessibility | WCAG 2.2 AA in a headless browser | No AA violations |
+| 4 | Performance | Core Web Vitals, measured | Metrics within budget |
+| 5 | Observability | Telemetry and monitoring present for the new behavior | Missing instrumentation added |
+| 6 | Security | OWASP Top 10, known CVEs, leaked secrets | No unresolved findings |
 
 (Levi Strauss ran observability last before security; keep security last whatever else you reorder.)
 
