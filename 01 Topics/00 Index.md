@@ -80,6 +80,14 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
   - [[SimpleEnglish Agent Skill]]: STE packaged as a benchmarked agent skill, scoped to technical docs.
   - [[Disposable Software Artifacts]]: single-use generated tools for understanding a topic.
 
+## Model Routing and Inference Cost
+
+- [[LLM Routing]]: pick the cheapest capable model from the prompt, before generation.
+- [[LLM Cascading]]: start on a cheap model, escalate when the answer fails a check.
+- [[Cascade Routing]]: flexible first dispatch plus quality-based rerouting.
+- [[Semantic Caching]]: return stored answers for semantically matching prompts.
+- [[LLM Routing in Production]]: cache first, fast hot path, circuit breakers, start simple.
+
 ## Deployment and Operations
 
 - [[Containerization and Orchestration]]: Docker and Kubernetes for reliable agent execution.
