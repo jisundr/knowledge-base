@@ -30,13 +30,26 @@ Stage 3 after [[02 Designing a Solution]]. Use when `DESIGN.md` is approved. Out
 
 | # | Step | Owner | Done when |
 | --- | --- | --- | --- |
-| 1 | Create a branch named after the task slug | AI | Branch exists, clean base |
+| 0 | Pick the autonomy level from the table below | Decision | Level is recorded in `STATE.md` |
+| 1 | Create a branch named after the task slug (a git worktree if other sessions run on the same repo) | AI | Branch exists, clean base |
 | 2 | For each task in `DESIGN.md`: write the failing test first | AI | Test fails for the right reason |
 | 3 | Implement the minimum to pass | AI | Test passes, no unrelated changes |
 | 4 | Run the full local suite and linters | AI | All green |
 | 5 | Commit per task with a message linking the criterion | AI | One logical change per commit |
 | 6 | Log deviations from the plan in `STATE.md` | AI | Every deviation has a reason |
 | 7 | Open a PR summarizing criteria met, tests added, deviations | AI | PR description maps criteria to evidence; written in ASD-STE100, Level 1 ([[01 Using ASD-STE100 with Agents]]) |
+
+## Pick the autonomy level
+
+Match autonomy to how well the change is checked, not to how simple it looks ([[AI Work Autonomy Spectrum]]).
+
+| Level | Use when | Requires |
+| --- | --- | --- |
+| Human-in-the-loop | High-risk or hard-to-undo changes: schema migrations, auth, shared API contracts, data deletion | A human watches the session and approves tool calls |
+| AFK ([[AFK Agent Execution]]) | The plan is clear and the gates cover the risk | Sandbox, auto-approved permissions, ends in a PR |
+| Factory-triggered ([[Autonomous Software Factory]]) | Routine, well-tested work started by CI failures, schedules, or issues | Strong deterministic gates, including contract checks for cross-repo changes |
+
+If the task touches more than one repo, run it from a home repo ([[03 Setting Up a Home Repo]]).
 
 ## Gates
 
@@ -56,6 +69,8 @@ Stage 3 after [[02 Designing a Solution]]. Use when `DESIGN.md` is approved. Out
 - Scope creep inside the PR.
 - Skipping the failing-test step, so tests prove nothing.
 - Silent plan deviations.
+- Running AFK on a high-risk change because it looked small.
+- Pushing through a degraded session: compact or clear instead ([[02 Writing Agent Instruction Files]]).
 
 ## Escalation
 
@@ -66,4 +81,6 @@ Stage 3 after [[02 Designing a Solution]]. Use when `DESIGN.md` is approved. Out
 
 - [[Agentic SDLC]]
 - [[01 Using ASD-STE100 with Agents]]: how the agent writes PR descriptions and commit messages
+- [[AI Work Autonomy Spectrum]]
+- [[03 Setting Up a Home Repo]]: cross-repo tasks
 - [[Playbook Template]]
