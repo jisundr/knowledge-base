@@ -25,6 +25,9 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 
 - [[Context Engineering]]: deliberately managing what goes into an agent's context window.
 - [[Progressive Disclosure]]: load a cheap summary first, full content only when needed.
+  - [[Progressive Disclosure Depth (Flat vs Hierarchical)]]: one index level beats none and beats a deep tree.
+- [[Agent Skills]]: one general agent plus on-demand skill folders, instead of a custom agent per domain.
+- [[Context Loading Patterns]]: index-first, scout, phase-based, process vs. reference.
 - [[Lost in the Middle]]: models attend poorly to instructions buried mid-context.
 - [[Smart Zone and Dumb Zone]]: quality drops past ~100k tokens; work in fresh contexts.
 - [[Model and Harness Separation]]: stateless model, agentic behavior lives in the harness loop.
@@ -50,6 +53,7 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
   - [[Property-Based UI Testing]]: randomized interactions asserting invariants.
   - [[Statecharts and State Machines]]: review behavior as states and transitions.
   - [[Formal Verification (TLA+ and Lean)]]: proofs of design invariants for critical logic.
+- [[Self-Verification Loop]]: the agent checks and revises its own output before the user sees it.
 - [[Test-Driven Development for Agents]]: red-green-refactor as the agent's objective feedback loop.
 - [[Deep Modules]]: simple interfaces over large functionality so agents work safely inside.
 
