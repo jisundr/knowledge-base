@@ -49,7 +49,13 @@ An **AI engineer** wires existing frontier or open-source models into working sy
   - [[Semantic Caching]]
   - [[LLM Routing in Production]]
 - Observability
+  - [[Request-Level Evidence Capture]]
 - Monitoring and security
+  - [[Model Drift Detection]]
+- Incident response
+  - [[AI-Assisted Incident Investigation]]
+  - [[Blameless Post-Incident Review (PIR)]]
+    - [[PIR Action Items (Prevent, Detect, Mitigate, Learn)]]
 
 ## Tier 4: Agent code quality and reliability
 
@@ -84,6 +90,9 @@ An **AI engineer** wires existing frontier or open-source models into working sy
   - [[Multi-Agent Orchestration Patterns]]
   - [[LLM Evaluation Tooling]]
   - [[LLM Evaluation Glossary]]
+  - [[AI Evaluation System Pillars]]
+  - [[After-Action Review for AI (AAR-AI)]]
+    - [[Model-Based vs Model-Free Explanations]]
 - [[AI Output Ladder]]
   - [[Simplified Technical English (ASD-STE100)]]
   - [[80% ASD-STE100 Prompting]]
@@ -104,3 +113,4 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
 - [[20261122181902 Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks|Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks]]
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
+- [[20261123170538 Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews|Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews]]

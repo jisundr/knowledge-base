@@ -76,6 +76,18 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
   - [[Multi-Agent Orchestration Patterns]]: sequential, parallel, hierarchical, reflexive.
   - [[LLM Evaluation Tooling]]: DeepEval, Promptfoo, Langfuse, and peers.
   - [[LLM Evaluation Glossary]]: definitions for benchmark, scorer, and statistics terms.
+  - [[AI Evaluation System Pillars]]: six areas a production evaluation system covers.
+    - [[Model Drift Detection]]: data, concept, and prediction drift; KL and PSI.
+    - [[Request-Level Evidence Capture]]: versioned IDs per request so failures are reproducible.
+  - [[After-Action Review for AI (AAR-AI)]]: four-question debrief of an agent's decisions.
+    - [[Model-Based vs Model-Free Explanations]]: search trees enable falsifying agent reasoning.
+
+## Incident Investigation and Reviews
+
+- [[AI-Assisted Incident Investigation]]: AI drafts and finds patterns; humans analyze and sign.
+- [[Blameless Post-Incident Review (PIR)]]: six mechanics that keep reviews honest.
+  - [[PIR Action Items (Prevent, Detect, Mitigate, Learn)]]: balanced, owned, 30-day action items.
+- [[Incident Investigation Glossary]]: ICAM, 5 Whys, OSHA 301, local rationality, and peers.
 
 ## Process and Automation
 

@@ -32,7 +32,7 @@ Stage 6 after [[05 Reviewing and Merging a PR]]. Use when a PR is merged. Outcom
 | # | Step | Owner | Done when |
 | --- | --- | --- | --- |
 | 1 | Draft release notes from `REQUIREMENTS.md` and the merged PR | AI | Notes state what changed, for whom, and known limits; written in ASD-STE100, Level 1 or 2 ([[01 Using ASD-STE100 with Agents]]) |
-| 2 | Define success signals and thresholds (error rate, latency, key business metric) and the rollback trigger | AI draft, Human confirms | Each signal has a number and a source |
+| 2 | Define success signals and thresholds (error rate, latency, key business metric) and the rollback trigger; for AI features add quality and drift signals ([[Model Drift Detection]]) and confirm request-level evidence is logged ([[Request-Level Evidence Capture]]) | AI draft, Human confirms | Each signal has a number and a source |
 | 3 | Run the pre-release checklist: migrations, config and flags, dependencies, rollback path tested | AI | Checklist all ticked |
 | 4 | Approve release timing | **Human decides** | Time and approver logged |
 | 5 | Release, preferably gradually (flag, canary, or staged rollout) | AI executes, Human watches | Change live for the first slice |
@@ -54,7 +54,7 @@ Stage 6 after [[05 Reviewing and Merging a PR]]. Use when a PR is merged. Outcom
 2. The agent correlates the alert with the change (deploy time, flag, dependency) and drafts findings.
 3. A human decides: roll back, roll forward with a fix, or hold.
 4. If rolled forward, the fix goes through the full pipeline again, at least [[04 Running Quality Gates]].
-5. Write a short post-incident note: timeline, cause, what stage should have caught it.
+5. Run [[07 Running a Post-Incident Review]]: blameless timeline, contributing factors, owned action items, and the stage that should have caught it.
 
 ## kairyn stage sketch
 
@@ -73,7 +73,7 @@ Stage 6 after [[05 Reviewing and Merging a PR]]. Use when a PR is merged. Outcom
 
 ## Escalation
 
-- Customer impact confirmed: follow the incident process and notify stakeholders now, not after the fix.
+- Customer impact confirmed: follow the incident process and notify stakeholders now, not after the fix; then run [[07 Running a Post-Incident Review]].
 - Cannot tell whether the change caused the issue: roll back first, investigate second.
 - Missing telemetry for the new behavior: block the release and return to [[04 Running Quality Gates]] (observability gate).
 
@@ -81,4 +81,5 @@ Stage 6 after [[05 Reviewing and Merging a PR]]. Use when a PR is merged. Outcom
 
 - [[Agentic SDLC]]
 - [[01 Using ASD-STE100 with Agents]]: how the agent writes release notes and incident summaries
+- [[07 Running a Post-Incident Review]]: what to do after a rollback or incident
 - [[Playbook Template]]
