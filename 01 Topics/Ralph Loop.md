@@ -19,7 +19,10 @@ An autonomous loop that keeps a coding agent working across session resets: pick
 - [[Long-Running Agent Harness]]
 - [[AFK Agent Execution]]
 - [[Test-Driven Development for Agents]]
+- [[Loop Engineering]]
+- [[Verification Density]]
 
 ## Sources
 
 - [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]
+- [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]

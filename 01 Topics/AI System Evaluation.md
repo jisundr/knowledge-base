@@ -30,3 +30,8 @@ The trace is what enables root-cause analysis when a test fails; see [[Evaluatio
 - [[Multi-Agent Orchestration Patterns]]
 - [[LLM Evaluation Tooling]]
 - [[AI Agents and Tool Use]]
+- [[Behavioral Evaluations]]: assert on intermediate agent actions, not only final output.
+
+## Sources
+
+- [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]

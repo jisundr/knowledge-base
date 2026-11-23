@@ -27,7 +27,10 @@ The [[Ralph Loop]] is the usual work loop on top of this harness.
 - [[Containerization and Orchestration]]
 - [[Agent Memory]]
 - [[Spec-Driven Development]]
+- [[Loop Engineering]]: this harness is Level 3 of the loop maturity levels.
+- [[Verification Density]]
 
 ## Sources
 
 - [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]
+- [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]

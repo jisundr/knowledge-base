@@ -32,6 +32,8 @@ Deliberately managing what goes into an agent's context window so that raw model
 - [[Agent Skills]]
 - [[Context Loading Patterns]]
 - [[Progressive Disclosure Depth (Flat vs Hierarchical)]]
+- [[Harness Engineering]]: the layer above context in the context / harness / loop stack.
+- [[Loop Engineering]]
 
 ## Sources
 
@@ -40,3 +42,4 @@ Deliberately managing what goes into an agent's context window so that raw model
 - [[20261121222850 Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture|Mastering AI-Powered Software Engineering - From Grilling to Deep Architecture]]
 - [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
 - [[20261122181902 Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks|Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks]]
+- [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]

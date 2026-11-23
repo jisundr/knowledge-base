@@ -27,7 +27,9 @@ Nothing in a session changes the weights. An agent seems to remember only becaus
 - [[Smart Zone and Dumb Zone]]
 - [[Long-Running Agent Harness]]
 - [[Agent Memory]]
+- [[Harness Engineering]]: designing the harness deliberately (Agent = Model + Harness).
 
 ## Sources
 
 - [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
+- [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
