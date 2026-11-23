@@ -39,6 +39,13 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
   - [[Five-Layer Context Hierarchy]]: ICM's layers, loaded from global to run-specific.
   - [[Stage Contract]]: the per-stage `CONTEXT.md` spec.
 
+## Agent Orchestration Environments
+
+- [[Cloud Agent Fleet vs Local Worktree Orchestrator]]: always-on cloud bots vs. a local control deck.
+- [[Agent Development Environment (ADE)]]: desktop control deck for a fleet of CLI agents (e.g. Orca).
+  - [[Git Worktree Isolation for Parallel Agents]]: one worktree per agent so parallel edits don't collide.
+  - [[Visual Element Annotation for Agents]]: click UI elements to attach HTML, CSS, and screenshots to prompts.
+
 ## Agent Memory
 
 - [[Agent Memory]]: persistent knowledge carried across sessions.
@@ -96,6 +103,8 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[AI Work Autonomy Spectrum]]: human-in-the-loop, AFK, software factory, dark factory.
 - [[Long-Running Agent Harness]]: brain, hands, and session layers for multi-hour agent work.
   - [[Ralph Loop]]: pick ready task, build, get judged, record lessons, repeat.
+- [[Domain-Specialized Agent Fleet]]: narrow bots with own memory, tracker loops, ops 1:1s, nightly audits.
+- [[Implement-Review-Remediate Loop]]: Git handoffs, automated tests, reviewer agent, one fix round then a human.
 
 ## AI-Assisted Design and Planning
 

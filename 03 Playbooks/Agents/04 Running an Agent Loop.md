@@ -99,6 +99,7 @@ The progress file: one entry per pass with the plan, the actions, the check resu
 ## Escalation
 
 - The loop hits its limit twice on the same task: the task or the spec is wrong. Return to [[02 Designing a Solution]].
+- You need several loops at once, or a reviewer agent in the loop: use [[05 Running Parallel Agents]] (worktree per task, one remediation round).
 - The agent keeps breaking the same rule: turn the rule into a deterministic check, not a longer instruction ([[Inverse Pyramid of Constraints]]).
 
 ## Related
@@ -112,4 +113,6 @@ The progress file: one entry per pass with the plan, the actions, the check resu
 - [[AFK Agent Execution]]
 - [[AI Work Autonomy Spectrum]]
 - [[03 Building a Task]]
+- [[05 Running Parallel Agents]]
+- [[Implement-Review-Remediate Loop]]
 - [[Playbook Template]]

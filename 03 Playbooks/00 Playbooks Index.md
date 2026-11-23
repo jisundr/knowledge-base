@@ -28,6 +28,8 @@ How to set up and steer agents, across every SDLC stage.
 2. [[02 Writing Agent Instruction Files]]: keep `AGENTS.md` / `CLAUDE.md` lean with context pointers and skills, write skills that pass the spec and review checks, keep the prefix cache warm, compact or clear degraded sessions.
 3. [[03 Setting Up a Home Repo]]: one control repo for multi-repo agent work; add contract checks when teams work apart.
 4. [[04 Running an Agent Loop]]: check the harness first, pick a loop maturity level, stop on exit codes, cap the budget, gate risky actions.
+5. [[05 Running Parallel Agents]]: one worktree per task, Git handoffs, one remediation round then a human.
+6. [[06 Using Bots]]: domain bots started by events and schedules; PR-only first, auto-merge per change type once earned.
 
 ## Inference (`Inference/`)
 

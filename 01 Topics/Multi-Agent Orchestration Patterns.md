@@ -18,8 +18,15 @@ How multiple agents are wired together, and what each costs to evaluate (from a 
 
 ## Related
 
+- [[Implement-Review-Remediate Loop]]
+- [[Domain-Specialized Agent Fleet]]
+- [[Cloud Agent Fleet vs Local Worktree Orchestrator]]
 - [[AI Agents and Tool Use]]
 - [[Memory Guardrails for Multi-Agent Systems]]
 - [[AI System Evaluation]]
 - [[Task Graph Backlog]]
 - [[AFK Agent Execution]]
+
+## Sources
+
+- [[20261123172458 Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE|Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE]]

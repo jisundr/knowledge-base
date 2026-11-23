@@ -54,6 +54,8 @@ If the task touches more than one repo, run it from a home repo ([[03 Setting Up
 
 For AFK or factory-triggered levels, run the work as a loop: check the harness, pick a loop maturity level, set budgets and approval gates ([[04 Running an Agent Loop]]).
 
+To build several independent tasks at once, or race two agents on one task, use one worktree per task ([[05 Running Parallel Agents]]). For routine work that should start from events or schedules, see [[06 Using Bots]].
+
 ## Gates
 
 1. All tasks in `DESIGN.md` are done or explicitly deferred.
@@ -87,5 +89,6 @@ For AFK or factory-triggered levels, run the work as a loop: check the harness, 
 - [[AI Work Autonomy Spectrum]]
 - [[03 Setting Up a Home Repo]]: cross-repo tasks
 - [[04 Running an Agent Loop]]: AFK and factory-triggered runs
+- [[05 Running Parallel Agents]]: parallel tasks in worktrees
 - [[Verification Density]]
 - [[Playbook Template]]

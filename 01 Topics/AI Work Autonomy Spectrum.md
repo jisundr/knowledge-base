@@ -18,6 +18,8 @@ The further right you go, the more you need deterministic checks (types, tests, 
 
 ## Related
 
+- [[Implement-Review-Remediate Loop]]
+- [[Agent Development Environment (ADE)]]
 - [[AFK Agent Execution]]
 - [[Autonomous Software Factory]]
 - [[Agent Verification Stack]]
@@ -27,3 +29,4 @@ The further right you go, the more you need deterministic checks (types, tests, 
 ## Sources
 
 - [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
+- [[20261123172458 Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE|Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE]]
