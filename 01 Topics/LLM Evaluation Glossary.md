@@ -93,6 +93,29 @@ Benchmark for comparing LLM routers on answer quality versus cost.
 ### SWE-bench
 Benchmark of real GitHub issues; a model must produce a patch that passes the repository's tests.
 
+## Classical ML metrics and monitoring
+
+### NDCG
+Normalized Discounted Cumulative Gain: ranking metric that rewards relevant items placed near the top.
+
+### SHAP
+SHapley Additive exPlanations: attributes a prediction to input features using Shapley values from game theory.
+
+### LIME
+Local Interpretable Model-agnostic Explanations: fits a simple model around one prediction to explain it locally.
+
+### Demographic parity
+Fairness criterion: each group receives the positive outcome at the same rate.
+
+### Equalized odds
+Fairness criterion: true-positive and false-positive rates are equal across groups.
+
+### KL divergence
+Kullback-Leibler divergence: how much one probability distribution differs from a reference one (asymmetric). Used for drift detection.
+
+### PSI
+Population Stability Index: binned, symmetric measure of how much a variable's distribution has shifted between two samples; a common drift alarm.
+
 ## Related
 
 - [[Evaluator Cascade]]
@@ -101,3 +124,5 @@ Benchmark of real GitHub issues; a model must produce a patch that passes the re
 - [[AI System Evaluation]]
 - [[LLM Routing]]
 - [[Cascade Routing]]
+- [[AI Evaluation System Pillars]]
+- [[Model Drift Detection]]

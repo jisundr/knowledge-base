@@ -18,6 +18,7 @@ The stages of an agentic SDLC ([[Agentic SDLC]], Levi Strauss pattern), each dra
 4. [[04 Running Quality Gates]]: ordered CI gates with agentic autofix.
 5. [[05 Reviewing and Merging a PR]]: human decision, merge, learnings.
 6. [[06 Releasing and Monitoring]]: gradual release, watch signals, promote or roll back.
+7. [[07 Running a Post-Incident Review]]: blameless review, AAR/AI for agent decisions, owned 30-day action items.
 
 ## Agents (`Agents/`)
 

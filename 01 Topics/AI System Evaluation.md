@@ -31,7 +31,10 @@ The trace is what enables root-cause analysis when a test fails; see [[Evaluatio
 - [[LLM Evaluation Tooling]]
 - [[AI Agents and Tool Use]]
 - [[Behavioral Evaluations]]: assert on intermediate agent actions, not only final output.
+- [[AI Evaluation System Pillars]]: performance, robustness, fairness, explainability, drift, evidence.
+- [[Request-Level Evidence Capture]]: production counterpart of the Trace.
 
 ## Sources
 
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
+- [[20261123170538 Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews|Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews]]
