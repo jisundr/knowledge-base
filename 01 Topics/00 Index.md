@@ -45,6 +45,15 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Dreaming (Agent Memory Consolidation)]]: async batch review that proposes memory updates.
 - [[Memory Guardrails for Multi-Agent Systems]]: engineering controls for shared memory at scale.
 
+## Harness and Loop Engineering
+
+- [[Harness Engineering]]: Agent = Model + Harness; the middle of the context / harness / loop stack.
+  - [[Feedforward Guides and Feedback Sensors]]: steer before acting, check after; computational vs inferential.
+- [[Loop Engineering]]: write loops that prompt the agent; observe-plan-act-reflect and three maturity levels.
+  - [[Verification Density]]: exit loops on deterministic signals, never on self-report.
+- [[Behavioral Evaluations]]: evals that assert on intermediate agent actions.
+- [[Cognitive Debt in Agentic Coding]]: comprehension debt, intent debt, cognitive surrender.
+
 ## Code Quality and Verification
 
 - [[Inverse Pyramid of Constraints]]: deterministic checks first, natural-language rules last.

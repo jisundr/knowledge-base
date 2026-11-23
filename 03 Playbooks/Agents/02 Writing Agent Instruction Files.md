@@ -23,6 +23,7 @@ Use when you write or trim an always-loaded instruction file (`AGENTS.md`, `CLAU
 - **Skills, not new agents**: add domain know-how as a skill on the general agent. Build a separate agent only for isolated context, different permissions, or parallel work.
 - **Stable prefix**: keep the start of the context the same between requests so [[Prefix Caching]] works.
 - **Context lives where agents can see it**: rules live in versioned files, not in chat memory.
+- **The file is a feedforward guide**: it steers before the agent acts. Rules that must always hold also need a feedback sensor (test, lint, hook) that checks after ([[Feedforward Guides and Feedback Sensors]]).
 
 ## What goes where
 
@@ -138,4 +139,6 @@ Do not re-explain rules in a degraded session. More text adds noise to a crowded
 - [[Agent Skills]]
 - [[Context Loading Patterns]]
 - [[Self-Verification Loop]]
+- [[Feedforward Guides and Feedback Sensors]]
+- [[04 Running an Agent Loop]]
 - [[Playbook Template]]

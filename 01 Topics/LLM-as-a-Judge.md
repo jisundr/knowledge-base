@@ -31,3 +31,8 @@ Terms such as G-Eval, QAG, Gwet's AC2, and Wilcoxon are defined in [[LLM Evaluat
 
 - [[AI System Evaluation]]
 - [[Retrieval-Augmented Generation (RAG)]]
+- [[Feedforward Guides and Feedback Sensors]]: LLM judges are inferential sensors in a harness.
+
+## Sources
+
+- [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]

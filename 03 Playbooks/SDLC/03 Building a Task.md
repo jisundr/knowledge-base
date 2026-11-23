@@ -17,6 +17,7 @@ Stage 3 after [[02 Designing a Solution]]. Use when `DESIGN.md` is approved. Out
 - **Same bar for agents and humans**: agent-written code faces the same gates as human code.
 - **Auditable always**: commits and `STATE.md` log show what the agent did.
 - **Context lives where agents can see it**: follow `agents.md`, `CLAUDE.md`, and repo conventions, not chat memory.
+- **Done means green checks, not a claim**: a step is done when its command exits 0, never because the agent says so ([[Verification Density]]).
 
 ## Roles
 
@@ -51,6 +52,8 @@ Match autonomy to how well the change is checked, not to how simple it looks ([[
 
 If the task touches more than one repo, run it from a home repo ([[03 Setting Up a Home Repo]]).
 
+For AFK or factory-triggered levels, run the work as a loop: check the harness, pick a loop maturity level, set budgets and approval gates ([[04 Running an Agent Loop]]).
+
 ## Gates
 
 1. All tasks in `DESIGN.md` are done or explicitly deferred.
@@ -83,4 +86,6 @@ If the task touches more than one repo, run it from a home repo ([[03 Setting Up
 - [[01 Using ASD-STE100 with Agents]]: how the agent writes PR descriptions and commit messages
 - [[AI Work Autonomy Spectrum]]
 - [[03 Setting Up a Home Repo]]: cross-repo tasks
+- [[04 Running an Agent Loop]]: AFK and factory-triggered runs
+- [[Verification Density]]
 - [[Playbook Template]]

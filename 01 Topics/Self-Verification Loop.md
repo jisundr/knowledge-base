@@ -21,7 +21,10 @@ Prefer deterministic checks where they exist; use critique personas only where n
 - [[Agent Verification Stack]]: the same idea at team and pipeline scale.
 - [[LLM-as-a-Judge]]: the risks of model-based critique.
 - [[Ralph Loop]]
+- [[Verification Density]]: never trust the model's self-report; exit on deterministic signals.
+- [[Feedforward Guides and Feedback Sensors]]
 
 ## Sources
 
 - [[20261122181902 Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks|Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks]]
+- [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
