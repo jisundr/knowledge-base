@@ -42,6 +42,8 @@ Gates run in this order. Security is last so it audits the final code, including
 
 (Levi Strauss ran observability last before security; keep security last whatever else you reorder.)
 
+Within each gate, run computational checks (tests, scanners, linters) before inferential ones (AI review, [[LLM-as-a-Judge]]). Computational checks are cheap, fast, and exact; keep inferential checks for what they cannot judge, such as fit to requirements ([[Feedforward Guides and Feedback Sensors]]).
+
 ## On failure
 
 1. The agent investigates the break and writes a targeted fix.
@@ -74,4 +76,5 @@ Gates run in this order. Security is last so it audits the final code, including
 - [[Agent Verification Stack]]
 - [[Contract-Driven Workspace]]
 - [[03 Setting Up a Home Repo]]
+- [[Feedforward Guides and Feedback Sensors]]
 - [[Playbook Template]]

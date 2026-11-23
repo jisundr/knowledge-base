@@ -53,7 +53,8 @@ Stage 5 after [[04 Running Quality Gates]]. Use when gates are green. Outcome: a
 
 ## Pitfalls
 
-- Rubber-stamping because the gates are green.
+- Rubber-stamping because the gates are green. This is cognitive surrender, and over time it builds comprehension debt: code nobody on the team understands ([[Cognitive Debt in Agentic Coding]]).
+- Losing the why: if the PR makes a load-bearing decision, record it in an ADR so intent survives ([[Architecture Decision Record (ADR)]]).
 - Reviewing the diff without reading `REQUIREMENTS.md`.
 - Merging with unanswered review questions.
 
@@ -66,4 +67,5 @@ Stage 5 after [[04 Running Quality Gates]]. Use when gates are green. Outcome: a
 
 - [[06 Releasing and Monitoring]] (next stage)
 - [[Agentic SDLC]]
+- [[Cognitive Debt in Agentic Coding]]
 - [[Playbook Template]]
