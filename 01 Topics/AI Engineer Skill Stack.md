@@ -48,6 +48,11 @@ An **AI engineer** wires existing frontier or open-source models into working sy
   - [[Cascade Routing]]
   - [[Semantic Caching]]
   - [[LLM Routing in Production]]
+- [[AI Control Plane]]
+  - [[Four-Layer AI Observability]]
+  - [[Human-in-the-Loop Approval Gates]]
+  - [[Agent Script Migration]]
+  - [[Agent Framework Altitude Tiers]]
 - Observability
   - [[Request-Level Evidence Capture]]
 - Monitoring and security
@@ -80,6 +85,9 @@ An **AI engineer** wires existing frontier or open-source models into working sy
   - [[Long-Running Agent Harness]]
     - [[Ralph Loop]]
   - [[Domain-Specialized Agent Fleet]]
+    - [[Agent Design Foundation]]
+      - [[Agent Anti-Jobs]]
+      - [[Deterministic Guardrail Policies]]
   - [[Implement-Review-Remediate Loop]]
   - [[Cloud Agent Fleet vs Local Worktree Orchestrator]]
     - [[Agent Development Environment (ADE)]]
@@ -121,3 +129,4 @@ An **AI engineer** wires existing frontier or open-source models into working sy
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
 - [[20261123170538 Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews|Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews]]
 - [[20261123172458 Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE|Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE]]
+- [[20261123181254 Mastering the AI Bot Fleet - Design, Workflow Integration, and Enterprise Governance|Mastering the AI Bot Fleet - Design, Workflow Integration, and Enterprise Governance]]

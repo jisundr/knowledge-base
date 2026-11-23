@@ -104,6 +104,9 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Long-Running Agent Harness]]: brain, hands, and session layers for multi-hour agent work.
   - [[Ralph Loop]]: pick ready task, build, get judged, record lessons, repeat.
 - [[Domain-Specialized Agent Fleet]]: narrow bots with own memory, tracker loops, ops 1:1s, nightly audits.
+  - [[Agent Design Foundation]]: goal, instructions, personality, and tools defined before a bot goes live.
+    - [[Agent Anti-Jobs]]: explicit list of actions the bot must never take.
+    - [[Deterministic Guardrail Policies]]: profanity, prompt-injection, denied-topic, and regex filters around the model.
 - [[Implement-Review-Remediate Loop]]: Git handoffs, automated tests, reviewer agent, one fix round then a human.
 
 ## AI-Assisted Design and Planning
@@ -146,6 +149,14 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Cascade Routing]]: flexible first dispatch plus quality-based rerouting.
 - [[Semantic Caching]]: return stored answers for semantically matching prompts.
 - [[LLM Routing in Production]]: cache first, fast hot path, circuit breakers, start simple.
+
+## Agent Governance and Control Planes
+
+- [[AI Control Plane]]: central layer for observability, approvals, audit, and cost across an agent fleet.
+  - [[Four-Layer AI Observability]]: application, agentic, model, and infrastructure signals.
+  - [[Human-in-the-Loop Approval Gates]]: durable pauses before high-stakes actions, with an append-only audit trail.
+  - [[Agent Script Migration]]: move rule-based steps from the model into deterministic scripts.
+- [[Agent Framework Altitude Tiers]]: primitives, developer frameworks, or enterprise platforms.
 
 ## Deployment and Operations
 

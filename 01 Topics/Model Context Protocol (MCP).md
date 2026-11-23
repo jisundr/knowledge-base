@@ -19,7 +19,9 @@ A standard adapter layer that lets agents use external systems (tickets, docs, t
 - [[AI Agents and Tool Use]]
 - [[Agentic SDLC]]
 - [[Interpretable Context Methodology (ICM)]] (complementary: static context organization vs runtime tool connections)
+- [[Agent Design Foundation]]
 
 ## Sources
 
 - [[20261115112636 17 agents, one SDLC - How Levi Strauss reimagined development on GitHub|17 agents, one SDLC - How Levi Strauss reimagined development on GitHub]]
+- [[20261123181254 Mastering the AI Bot Fleet - Design, Workflow Integration, and Enterprise Governance|Mastering the AI Bot Fleet - Design, Workflow Integration, and Enterprise Governance]]
