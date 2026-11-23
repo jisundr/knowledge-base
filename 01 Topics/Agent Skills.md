@@ -68,6 +68,8 @@ Agents tend to rewrite the same script on every run, which wastes tokens and inv
 
 When you correct the agent during a task, write the fix into the skill (instructions or a script), so the next run starts from the corrected version. Review these changes yourself: SkillsBench found that skills the model writes for itself, without review, give no average benefit.
 
+A related habit: after you walk a bot through a new workflow, ask it to write the procedure up as a skill (inputs, steps, what a correct result looks like) and store it in a private git repo, so the bot stays consistent. The same review rule applies.
+
 ## Security
 
 Skills can run code. Keep tool approvals on by default: auto-approve read-only actions if needed, but run scripts in a sandbox with restricted network access. Only install skills from sources you trust, and read a community skill before you install it.
@@ -82,7 +84,10 @@ Skills can run code. Keep tool approvals on by default: auto-approve read-only a
 - [[Context Engineering]]
 - [[SimpleEnglish Agent Skill]]: an example skill with a benchmark.
 - [[Home Repo Pattern]]: where to version shared skills.
+- [[Agent Design Foundation]]
+- [[Agent Script Migration]]
 
 ## Sources
 
 - [[20261122181902 Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks|Mastering Agent Skills & Progressive Disclosure -Architecture, Patterns, and Benchmarks]]
+- [[20261123181254 Mastering the AI Bot Fleet - Design, Workflow Integration, and Enterprise Governance|Mastering the AI Bot Fleet - Design, Workflow Integration, and Enterprise Governance]]
