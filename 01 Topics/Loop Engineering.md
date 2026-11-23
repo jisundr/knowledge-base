@@ -34,6 +34,8 @@ Unattended loops can burn compute and drift from intent. Guard with budgets, app
 
 ## Related
 
+- [[Implement-Review-Remediate Loop]]
+- [[Git Worktree Isolation for Parallel Agents]]
 - [[AFK Agent Execution]]
 - [[AI Work Autonomy Spectrum]]
 - [[Multi-Agent Orchestration Patterns]]
@@ -42,3 +44,4 @@ Unattended loops can burn compute and drift from intent. Guard with budgets, app
 ## Sources
 
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
+- [[20261123172458 Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE|Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE]]

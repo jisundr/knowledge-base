@@ -26,6 +26,8 @@ With a solid inner loop, outer loops are cheap. Example: each release triggers a
 
 ## Related
 
+- [[Domain-Specialized Agent Fleet]]
+- [[Implement-Review-Remediate Loop]]
 - [[Agentic SDLC]]
 - [[Categorical Elimination of Anti-Patterns]]
 - [[AFK Agent Execution]]
@@ -36,3 +38,4 @@ With a solid inner loop, outer loops are cheap. Example: each release triggers a
 
 - [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
 - [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
+- [[20261123172458 Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE|Mastering AI Agent Orchestration - Building Software Factories with Grok Bot and Orca ADE]]
