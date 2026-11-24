@@ -132,3 +132,4 @@ Each bot gets a short profile, versioned in git next to its skills ([[Agent Desi
 - [[05 Running Parallel Agents]]
 - [[04 Running an Agent Loop]]
 - [[Playbook Template]]
+- [[00 Bots Index]]: where each bot's profile lives (start from [[Bot Profile Template]])

@@ -10,9 +10,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FOLDERS = ["00 Inbox", "01 Topics", "02 Resources", "03 Playbooks"]
+FOLDERS = ["00 Inbox", "01 Topics", "02 Resources", "03 Playbooks", "04 Bots"]
 TOPICS_INDEX = ROOT / "01 Topics" / "00 Index.md"
 PLAYBOOKS_INDEX = ROOT / "03 Playbooks" / "00 Playbooks Index.md"
+BOTS_INDEX = ROOT / "04 Bots" / "00 Bots Index.md"
 
 WIKILINK = re.compile(r"!?\[\[([^\]]+)\]\]")
 MD_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)\s]+)\)")
@@ -90,6 +91,8 @@ for p in notes:
         err(p, f"Topics note must be 'type: topic' (got {kind!r})")
     if folder == "03 Playbooks" and kind not in {"playbook", "index"}:
         err(p, f"Playbooks note must be 'type: playbook' (got {kind!r})")
+    if folder == "04 Bots" and kind not in {"bot", "index"}:
+        err(p, f"Bots note must be 'type: bot' (got {kind!r})")
     if folder == "02 Resources":
         if fm.get("status") != "reviewed":
             err(p, "Resource note must have 'status: reviewed'")
@@ -121,8 +124,13 @@ def linked(index: Path) -> set[str]:
     }
 
 
-# Every topic is listed in the Topics Index; every playbook in the Playbooks Index.
-for index, folder in [(TOPICS_INDEX, "01 Topics"), (PLAYBOOKS_INDEX, "03 Playbooks")]:
+# Every topic is listed in the Topics Index; every playbook in the Playbooks Index;
+# every bot in the Bots Index.
+for index, folder in [
+    (TOPICS_INDEX, "01 Topics"),
+    (PLAYBOOKS_INDEX, "03 Playbooks"),
+    (BOTS_INDEX, "04 Bots"),
+]:
     if not index.exists():
         errors.append(f"{index.relative_to(ROOT)}: index note missing")
         continue
