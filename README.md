@@ -11,6 +11,7 @@ Personal Obsidian vault for capturing and organizing what I learn. Currently foc
 | `02 Resources` | Reviewed source notes (`status: reviewed`), named `YYYYMMDDHHMMSS <title>.md` |
 | `02 Resources/attachments` | Images and other files embedded in source notes (give them descriptive names) |
 | `03 Playbooks` | Action-oriented playbooks/runbooks, grouped in subfolders (e.g. `SDLC/`, numbered in order) ("what do I do when X happens?"), started from `Playbook Template` |
+| `04 Bots` | Bot personas (`type: bot`): goal, instructions, voice, tools, anti-jobs, guardrails, owner. Started from `Bot Profile Template`, listed in `00 Bots Index` |
 
 ## Source format
 
@@ -46,4 +47,5 @@ CI (`.github/workflows/docs-check.yml`) runs the document checks and the static 
 
 - [[00 Index|Index]] (all topics by category)
 - [[00 Playbooks Index|Playbooks Index]] in `03 Playbooks` (how-to guides, e.g. handling new requirements)
+- [[00 Bots Index|Bots Index]] in `04 Bots` (bot personas, e.g. the Orca bot that assists me through the SDLC with kairyn)
 - [[AI Engineer Skill Stack]]
