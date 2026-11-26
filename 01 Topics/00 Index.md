@@ -66,6 +66,7 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Bottleneck Shift (Theory of Constraints)]]: agents made code free, so review and verification became the constraint.
   - [[Mergeability Gap]]: tests pass far more often than maintainers would merge.
   - [[Blast-Radius Code Review]]: human review only on architecture and security hot spots.
+    - [[Risk-Classified PR Routing]]: a classifier sends mechanical PRs to auto-merge and risky ones to humans.
   - [[Shipped Value Metrics]]: measure shipping velocity and merge acceptance, not code volume.
 
 ## Code Quality and Verification
@@ -73,6 +74,7 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Inverse Pyramid of Constraints]]: deterministic checks first, natural-language rules last.
 - [[Categorical Elimination of Anti-Patterns]]: ban a pattern class instead of fixing instances.
 - [[Agent Verification Stack]]: tiers of automated checks so humans review evidence, not code.
+  - [[Shadow Traffic Migration]]: rewrite as a fork, mirror live requests, converge mismatches to zero.
   - [[Property-Based UI Testing]]: randomized interactions asserting invariants.
   - [[Statecharts and State Machines]]: review behavior as states and transitions.
   - [[Formal Verification (TLA+ and Lean)]]: proofs of design invariants for critical logic.
@@ -99,6 +101,7 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 ## Incident Investigation and Reviews
 
 - [[AI-Assisted Incident Investigation]]: AI drafts and finds patterns; humans analyze and sign.
+  - [[Shadow On-Call Agent]]: an agent screens pages for noise and starts fixing before the human arrives.
 - [[Blameless Post-Incident Review (PIR)]]: six mechanics that keep reviews honest.
   - [[PIR Action Items (Prevent, Detect, Mitigate, Learn)]]: balanced, owned, 30-day action items.
 - [[Incident Investigation Glossary]]: ICAM, 5 Whys, OSHA 301, local rationality, and peers.
@@ -109,6 +112,7 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Autonomous Software Factory]]: deterministic boundaries plus verification for high-velocity output.
 - [[AI Work Autonomy Spectrum]]: human-in-the-loop, AFK, software factory, dark factory.
 - [[Long-Running Agent Harness]]: brain, hands, and session layers for multi-hour agent work.
+  - [[Egress Credential Injection]]: secrets stay in a vault; a proxy adds them as requests leave the sandbox.
   - [[Ralph Loop]]: pick ready task, build, get judged, record lessons, repeat.
 - [[Domain-Specialized Agent Fleet]]: narrow bots with own memory, tracker loops, ops 1:1s, nightly audits.
   - [[Agent Design Foundation]]: goal, instructions, personality, and tools defined before a bot goes live.
@@ -141,6 +145,8 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Product Engineer]]: PM and engineer merged into one role that specs work and directs agents.
   - [[Accidental vs Essential Complexity]]: agents remove tooling difficulty; domain difficulty stays human.
   - [[Junior Developer Apprenticeship Gap]]: agents took the entry-level tickets juniors learned on.
+  - [[Agent-Driven Technical Interviews]]: test working with agents instead of algorithm whiteboarding.
+  - [[Impact-Based Engineering Seniority]]: seniority by measured impact and boundary-setting, not project length.
 - [[Shaping (Shape Up)]]: bound a raw idea with an appetite before building.
 - [[Product Discovery Glossary]]: appetite, breadboarding, fat-marker sketch, and peers.
 

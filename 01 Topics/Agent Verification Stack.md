@@ -18,8 +18,14 @@ The tiers of automated checking that let humans review *evidence* instead of raw
 
 Human review shifts to inspecting execution videos, UI screenshots, state diagrams, and proofs rather than reading diffs.
 
+## Verifiable outputs
+
+Anthropic's rule: if you can make an output verifiable, you don't need to read every line. Their Python-to-Rust rewrite was checked by [[Shadow Traffic Migration]] rather than diff review, and engineers estimated they did not deeply read about 80% of agent-opened PRs.
+
 ## Related
 
+- [[Shadow Traffic Migration]]
+- [[Risk-Classified PR Routing]]
 - [[Inverse Pyramid of Constraints]]
 - [[Autonomous Software Factory]]
 - [[Agentic SDLC]]
@@ -33,3 +39,4 @@ Human review shifts to inspecting execution videos, UI screenshots, state diagra
 - [[20261115183456 All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI|All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI]]
 - [[20261122155021 Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern|Mastering AI Coding Agents - Context Engineering & The Home Repo Pattern]]
 - [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]
+- [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]

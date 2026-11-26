@@ -21,8 +21,13 @@ The runtime around an AI coding agent that works for hours or days. Plain chat s
 
 The [[Ralph Loop]] is the usual work loop on top of this harness.
 
+## Cloud deployment
+
+Anthropic's Claude Managed Agents applies the same split in the cloud: the harness and session state run on a durable server, sandboxes are created only to run tools or untrusted code and then torn down, and secrets stay outside the sandbox via [[Egress Credential Injection]]. This avoids losing state when a sandbox crashes, slow boots, and secrets inside the environment.
+
 ## Related
 
+- [[Egress Credential Injection]]
 - [[AFK Agent Execution]]
 - [[Containerization and Orchestration]]
 - [[Agent Memory]]
@@ -34,3 +39,4 @@ The [[Ralph Loop]] is the usual work loop on top of this harness.
 
 - [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
+- [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]

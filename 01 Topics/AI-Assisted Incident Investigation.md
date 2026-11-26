@@ -27,8 +27,11 @@ Claimed effect: 60–80% less drafting time and 2–3× more near-miss reports w
 
 AI is a productivity multiplier, not the decision-maker. Same pattern as "agents monitor, humans decide" in [[Agentic SDLC]] and the human tiers of the [[AI Work Autonomy Spectrum]].
 
+For live IT incidents, a [[Shadow On-Call Agent]] applies the same split at page time: it filters noise and starts investigating before the human arrives.
+
 ## Related
 
+- [[Shadow On-Call Agent]]
 - [[Blameless Post-Incident Review (PIR)]]
 - [[After-Action Review for AI (AAR-AI)]]
 - [[Request-Level Evidence Capture]]
@@ -36,3 +39,4 @@ AI is a productivity multiplier, not the decision-maker. Same pattern as "agents
 ## Sources
 
 - [[20261123170538 Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews|Mastering AI & IT Incident Investigation - From Automated Root Cause Analysis to Blameless Reviews]]
+- [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]

@@ -15,6 +15,7 @@ Measure what reaches users, not how much code agents produce. With agents, lines
 
 ## Related
 
+- [[Impact-Based Engineering Seniority]]
 - [[Bottleneck Shift (Theory of Constraints)]]
 - [[Blast-Radius Code Review]]
 - [[AI System Evaluation]]
@@ -22,3 +23,4 @@ Measure what reaches users, not how much code agents produce. With agents, lines
 ## Sources
 
 - [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]
+- [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]

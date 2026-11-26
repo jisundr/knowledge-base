@@ -16,8 +16,12 @@ Fred Brooks' split of software difficulty (*No Silver Bullet*, 1986, collected i
 
 Example: a scheduling app for a local bakery and one for an auto-parts distributor may look the same to an LLM, but "good" differs with physical operations, staff habits, and business constraints. That context is not in model weights; it has to be drawn out of people by talking to them.
 
+Example: Anthropic's platform team moved its API to Rust without prior Rust experience; Claude wrote the code and explained the borrow checker on demand, so the language's accidental complexity no longer needed months of retraining (see [[Shadow Traffic Migration]]).
+
 ## Related
 
+- [[Shadow Traffic Migration]]
+- [[Impact-Based Engineering Seniority]]
 - [[Product Engineer]]
 - [[Problem-First Thinking]]
 - [[Spec-Driven Development]]
@@ -26,3 +30,4 @@ Example: a scheduling app for a local bakery and one for an auto-parts distribut
 ## Sources
 
 - [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]
+- [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]

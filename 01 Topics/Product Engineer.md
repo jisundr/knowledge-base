@@ -20,8 +20,12 @@ Job postings for forward-deployed product engineers rose 800% in nine months, wi
 - Framing [[Accidental vs Essential Complexity|essential complexity]]: understanding the domain and what "good" means.
 - Turning domain knowledge into machine-verifiable specs and evals ([[Spec-Driven Development]], [[AI System Evaluation]]).
 
+Example: an Anthropic product manager built and shipped a prompt-caching diagnostics dashboard in the Developer Console with Claude, while engineers gave architectural oversight.
+
 ## Related
 
+- [[Agent-Driven Technical Interviews]]
+- [[Impact-Based Engineering Seniority]]
 - [[Product-Minded Engineer]]: the same mindset inside a traditional engineering role.
 - [[Junior Developer Apprenticeship Gap]]
 - [[Product Trio]]
@@ -30,3 +34,4 @@ Job postings for forward-deployed product engineers rose 800% in nine months, wi
 ## Sources
 
 - [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]
+- [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]

@@ -19,6 +19,7 @@ The long-run constraint, once review and operations are automated too, is defini
 
 ## Related
 
+- [[Risk-Classified PR Routing]]
 - [[Blast-Radius Code Review]]
 - [[Shipped Value Metrics]]
 - [[Agent Verification Stack]]
@@ -28,3 +29,4 @@ The long-run constraint, once review and operations are automated too, is defini
 ## Sources
 
 - [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]
+- [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]
