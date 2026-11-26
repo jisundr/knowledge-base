@@ -22,7 +22,10 @@ The human-side costs that build up when agent loops write most of the code and p
 - [[Loop Engineering]]
 - [[AI Work Autonomy Spectrum]]
 - [[Product-Minded Engineer]]
+- [[Bottleneck Shift (Theory of Constraints)]]
+- [[Blast-Radius Code Review]]
 
 ## Sources
 
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
+- [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]

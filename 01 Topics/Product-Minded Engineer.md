@@ -14,7 +14,10 @@ It is the team-level answer to a weak product function. The opposite situation i
 - [[Problem-First Thinking]]
 - [[Product Trio]]
 - [[Shaping (Shape Up)]]
+- [[Product Engineer]]
+- [[Junior Developer Apprenticeship Gap]]
 
 ## Sources
 
 - [[20261122123529 From Problem-First Discovery to Spec-Driven AI Execution|From Problem-First Discovery to Spec-Driven AI Execution]]
+- [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]

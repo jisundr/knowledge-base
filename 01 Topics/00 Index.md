@@ -61,6 +61,13 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Behavioral Evaluations]]: evals that assert on intermediate agent actions.
 - [[Cognitive Debt in Agentic Coding]]: comprehension debt, intent debt, cognitive surrender.
 
+## Bottlenecks and Delivery
+
+- [[Bottleneck Shift (Theory of Constraints)]]: agents made code free, so review and verification became the constraint.
+  - [[Mergeability Gap]]: tests pass far more often than maintainers would merge.
+  - [[Blast-Radius Code Review]]: human review only on architecture and security hot spots.
+  - [[Shipped Value Metrics]]: measure shipping velocity and merge acceptance, not code volume.
+
 ## Code Quality and Verification
 
 - [[Inverse Pyramid of Constraints]]: deterministic checks first, natural-language rules last.
@@ -131,6 +138,9 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 - [[Product Trio]]: PM, designer, and tech lead own discovery together.
 - [[Four Big Product Risks]]: value, usability, feasibility, viability.
 - [[Product-Minded Engineer]]: engineers who engage with the why, not just the ticket.
+- [[Product Engineer]]: PM and engineer merged into one role that specs work and directs agents.
+  - [[Accidental vs Essential Complexity]]: agents remove tooling difficulty; domain difficulty stays human.
+  - [[Junior Developer Apprenticeship Gap]]: agents took the entry-level tickets juniors learned on.
 - [[Shaping (Shape Up)]]: bound a raw idea with an appetite before building.
 - [[Product Discovery Glossary]]: appetite, breadboarding, fat-marker sketch, and peers.
 
