@@ -17,6 +17,10 @@ Applied to agentic coding: agents made writing code nearly free, so the constrai
 
 The long-run constraint, once review and operations are automated too, is defining what "good" means: see [[Accidental vs Essential Complexity]].
 
+## Past review: demand
+
+Once production and review are cheap, the next constraint can be demand itself: a glut of software customers did not ask for. See [[Demand Factory]].
+
 ## Related
 
 - [[Risk-Classified PR Routing]]
@@ -25,8 +29,10 @@ The long-run constraint, once review and operations are automated too, is defini
 - [[Agent Verification Stack]]
 - [[Cognitive Debt in Agentic Coding]]
 - [[Agentic SDLC]]
+- [[Demand Factory]]
 
 ## Sources
 
 - [[20261126153108 AI Writes the Code - The Rise of the Product Engineer|AI Writes the Code - The Rise of the Product Engineer]]
 - [[20261126155209 How Anthropic Builds Software with AI Agents|How Anthropic Builds Software with AI Agents]]
+- [[20261127074619 Stop Building Software Factories — Architecting Brownfield & Demand Systems|Stop Building Software Factories — Architecting Brownfield & Demand Systems]]

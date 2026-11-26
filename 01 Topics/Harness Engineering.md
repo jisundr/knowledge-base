@@ -28,7 +28,9 @@ Each layer depends on the one below. A loop around a weak harness does not fix e
 - [[Inverse Pyramid of Constraints]]
 - [[Agent Verification Stack]]
 - [[Verification Density]]
+- [[Self-Simplifying Factory Harnesses]]
 
 ## Sources
 
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
+- [[20261127074619 Stop Building Software Factories — Architecting Brownfield & Demand Systems|Stop Building Software Factories — Architecting Brownfield & Demand Systems]]

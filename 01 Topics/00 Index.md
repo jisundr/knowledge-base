@@ -110,6 +110,10 @@ Every note in `01 Topics`, grouped by category. Start with [[AI Engineer Skill S
 
 - [[Agentic SDLC]]: redesigning the lifecycle around agents.
 - [[Autonomous Software Factory]]: deterministic boundaries plus verification for high-velocity output.
+  - [[Greenfield vs Brownfield Software Factories]]: automate existing paid-for systems, not unvalidated ideas.
+  - [[Software Promises]]: features, price, security, and performance guarantees encoded as loops fed by runtime telemetry.
+  - [[Self-Simplifying Factory Harnesses]]: harnesses shed scaffolding as models improve (Raptor 1 to Raptor 2).
+  - [[Demand Factory]]: agents that generate market demand so code output matches it; brand envelope.
 - [[AI Work Autonomy Spectrum]]: human-in-the-loop, AFK, software factory, dark factory.
 - [[Long-Running Agent Harness]]: brain, hands, and session layers for multi-hour agent work.
   - [[Egress Credential Injection]]: secrets stay in a vault; a proxy adds them as requests leave the sandbox.

@@ -30,7 +30,9 @@ Prefer computational controls where they exist and keep inferential ones for wha
 - [[Context Pointers]]: a lean way to write feedforward guides.
 - [[Self-Verification Loop]]
 - [[Verification Density]]
+- [[Software Promises]]
 
 ## Sources
 
 - [[20261123164745 Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding|Mastering Harness & Loop Engineering - Beyond Single-Prompt AI Coding]]
+- [[20261127074619 Stop Building Software Factories — Architecting Brownfield & Demand Systems|Stop Building Software Factories — Architecting Brownfield & Demand Systems]]
